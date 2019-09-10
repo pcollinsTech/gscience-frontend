@@ -23,6 +23,11 @@
   color: white;
 }
 
+.accordion > .card .card-header {
+  margin-bottom: -1px;
+  border-bottom: 2px solid $primary-color;
+}
+
 .accordian_icon {
   float: right;
 }
