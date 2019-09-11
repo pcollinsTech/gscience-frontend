@@ -4,8 +4,8 @@ import ryan from "../../img/Team/ryan.jpg"
 export default function MeetTheTeam() {
   return (
     <React.Fragment>
-      <div className="container team">
-        <h2 className="text-centre">Meet The Team</h2>
+      <div className="container py-5 team">
+        <h2 className="text-center pb-4">Meet The Team</h2>
         <div className="row">
           <div className="col-sm-7">
             <div className="team_member row">
