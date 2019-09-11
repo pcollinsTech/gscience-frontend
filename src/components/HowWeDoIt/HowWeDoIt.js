@@ -1,5 +1,5 @@
 import React from "react"
-const OurStory = () => {
+const HowWeDoIt = () => {
   return (
     <React.Fragment>
       <section className="welcome-area ptb-100">
@@ -92,17 +92,7 @@ const OurStory = () => {
                 to healthier and more successful esports athletes.
               </p>
             </div>
-            <div className="col-sm-6">
-              <br />
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/qM5s7wtHVbE"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <div className="col-sm-6"></div>
           </div>
         </div>
       </div>
@@ -110,4 +100,4 @@ const OurStory = () => {
   )
 }
 
-export default OurStory
+export default HowWeDoIt

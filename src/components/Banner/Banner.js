@@ -54,9 +54,9 @@ class Banner extends Component {
             <div className="animation-box2">
               <img src={this.props.animationImg2} alt="sliderimage" />
             </div>
-            <div className="animation-box3">
+            {/* <div className="animation-box3">
               <img src={this.props.animationImg3} alt="sliderimage" />
-            </div>
+            </div> */}
             <div className="animation-box4">
               <img src={this.props.animationImg4} alt="sliderimage" />
             </div>
