@@ -7,15 +7,18 @@ const Optimal = () => {
         <div className="container text-center">
           <div className="row">
             <div className="col-sm-6">
-              <h2 className="mb-5">Optimal</h2>
-              <h5>(Powered By G-Science)</h5>
-              <h3>TAKE YOUR GAMING TO THE NEXT LEVEL!</h3>
+              <h2 className="">Optimal</h2>
+              <p>(Powered By G-Science)</p>
+              <h3 className="py-5">TAKE YOUR GAMING TO THE NEXT LEVEL!</h3>
             </div>
 
             <div className="col-sm-6">
               <img src={coach_dashboard} alt="" />
             </div>
           </div>
+          <button className="btn btn-primary">
+            <a href="/optimal">Learn More</a>
+          </button>
         </div>
       </div>
     </React.Fragment>
