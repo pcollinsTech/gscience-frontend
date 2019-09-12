@@ -1,7 +1,16 @@
 import React, { Component } from "react"
 import { Nav, Modal } from "react-bootstrap"
 import PropTypes from "prop-types"
-import Icofont from "react-icofont"
+import {
+  FaMapSigns,
+  FaPhone,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+  FaPinterest,
+} from "react-icons/fa"
 
 export class SideNav extends Component {
   constructor(props, context) {
@@ -46,12 +55,12 @@ export class SideNav extends Component {
             <p>{this.props.content}</p>
             <ul className="modal-contact-info">
               <li>
-                <Icofont icon="icofont-google-map" />
+                <FaMapSigns />
                 <b>18 Ormeau Avenue</b>
                 Belfast, Northern Ireland BT2 8HS
               </li>
               <li>
-                <Icofont icon="icofont-ui-call" />{" "}
+                <FaPhone />
                 <b>
                   <a
                     href={`tel:${this.props.phonebolt}`}
@@ -63,7 +72,7 @@ export class SideNav extends Component {
                 {this.props.phonenormal}
               </li>
               <li>
-                <Icofont icon="icofont-envelope" />{" "}
+                <FaEnvelope />
                 <b>
                   <a
                     href={`mailto:${this.props.mailbolot}`}
@@ -79,27 +88,27 @@ export class SideNav extends Component {
             <ul className="social-links">
               <li>
                 <a href={this.props.facebooklink}>
-                  <Icofont icon="icofont-facebook" />
+                  <FaFacebookF />
                 </a>
               </li>
               <li>
                 <a href={this.props.twitterlink}>
-                  <Icofont icon="icofont-twitter" />
+                  <FaTwitter />
                 </a>
               </li>
               <li>
                 <a href={this.props.instagramlink}>
-                  <Icofont icon="icofont-instagram" />
+                  <FaInstagram />
                 </a>
               </li>
               <li>
                 <a href={this.props.linkedinlink}>
-                  <Icofont icon="icofont-linkedin" />
+                  <FaLinkedinIn />
                 </a>
               </li>
               <li>
                 <a href={this.props.pinterestlink}>
-                  <Icofont icon="icofont-pinterest" />
+                  <FaPinterest />
                 </a>
               </li>
             </ul>
@@ -131,7 +140,7 @@ SideNav.defaultProps = {
   content: "Get in touch",
   locationbolt: "",
   locationnormal: "Northern Ireland",
-  phonebolt: "078810 92136",
+  phonebolt: "07881092136",
   phonenormal: "Give us a call",
   mailbolot: "info@gscience.gg",
   mailnormal: "Online support & enquiries",

@@ -1,14 +1,8 @@
 import React from "react"
 import { Card, Accordion } from "react-bootstrap"
-const WhatWeProvide = () => {
-  const icon0 = "icofont-plus-circle"
-  const icon1 = "icofont-plus-circle"
-  const icon2 = "icofont-plus-circle"
-  const icon3 = "icofont-plus-circle"
-  const icon4 = "icofont-plus-circle"
-  const icon5 = "icofont-plus-circle"
-  const icon6 = "icofont-plus-circle"
+import { FaPlusCircle } from "react-icons/fa"
 
+const WhatWeProvide = () => {
   const accordianClick = e => {
     console.log("Clicked", e)
   }
@@ -27,10 +21,7 @@ const WhatWeProvide = () => {
                       eventKey="0"
                       onClick={accordianClick}
                     >
-                      Recovery Methods{" "}
-                      <span
-                        className={icon0 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Recovery Methods <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                       <Card.Body>
@@ -42,10 +33,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
-                      Performance Nutrition{" "}
-                      <span
-                        className={icon1 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Performance Nutrition <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
@@ -58,10 +46,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
-                      Burnout Prevention{" "}
-                      <span
-                        className={icon2 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Burnout Prevention <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                       <Card.Body>
@@ -74,10 +59,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                      Psychological Skills Training{" "}
-                      <span
-                        className={icon3 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Psychological Skills Training <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                       <Card.Body>
@@ -90,10 +72,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="4">
-                      Sleep Analysis{" "}
-                      <span
-                        className={icon4 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Sleep Analysis <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                       <Card.Body>
@@ -105,10 +84,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="5">
-                      Cognitive Load Monitoring{" "}
-                      <span
-                        className={icon5 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Cognitive Load Monitoring <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="5">
                       <Card.Body>
@@ -120,10 +96,7 @@ const WhatWeProvide = () => {
                   </Card>
                   <Card style={{ backgroundColor: "transparent" }}>
                     <Accordion.Toggle as={Card.Header} eventKey="6">
-                      Tailored Esport Performance Metrics{" "}
-                      <span
-                        className={icon6 + " icofont-2x accordian_icon_right"}
-                      ></span>
+                      Tailored Esport Performance Metrics <FaPlusCircle />
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="6">
                       <Card.Body>
@@ -149,9 +122,7 @@ const WhatWeProvide = () => {
                       eventKey="0"
                       onClick={accordianClick}
                     >
-                      <span
-                        className={icon0 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Recovery Methods{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
@@ -169,9 +140,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="1">
-                      <span
-                        className={icon1 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Performance Nutrition{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
@@ -190,9 +159,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="2">
-                      <span
-                        className={icon2 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Burnout Prevention{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
@@ -211,9 +178,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                      <span
-                        className={icon3 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Psychological Skills Training{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
@@ -232,9 +197,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="4">
-                      <span
-                        className={icon4 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Sleep Analysis{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
@@ -252,9 +215,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="5">
-                      <span
-                        className={icon5 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Cognitive Load Monitoring{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="5">
@@ -272,9 +233,7 @@ const WhatWeProvide = () => {
                     }}
                   >
                     <Accordion.Toggle as={Card.Header} eventKey="6">
-                      <span
-                        className={icon6 + " icofont-2x accordian_icon_left"}
-                      ></span>
+                      <FaPlusCircle />
                       Tailored Esport Performance Metrics{" "}
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="6">

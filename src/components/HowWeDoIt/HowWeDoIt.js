@@ -3,9 +3,9 @@ const HowWeDoIt = () => {
   return (
     <React.Fragment>
       <div className="bg-dark py-5">
-        <div className="what_we_provide">
+        <div className="container text-center">
+          <h2 className="mb-5">How We Do It</h2>
           <div className="row">
-            <h2>How We Do It</h2>
             <div className="col-sm-4">
               <h3>1-1 Coaching</h3>
               <p>

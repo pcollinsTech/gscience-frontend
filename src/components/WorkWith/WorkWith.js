@@ -4,9 +4,48 @@ import clash from "../../img/clashzone.jpg"
 export default function WorkWith() {
   return (
     <React.Fragment>
-      <h2 className="text-center pb-4">Who We Work With</h2>
-      <img src={nuclear} alt="nuclear storm" />
-      <img src={clash} alt="clashzone" />
+      <div className="container">
+        <h2 className="text-center pb-4">Who We Work With</h2>
+        <div className="row">
+          <div className="col-sm-6">
+            <img
+              src={nuclear}
+              alt="nuclear storm"
+              className="mx-auto d-block"
+              style={{ maxWidth: "280px" }}
+            />
+          </div>
+          <div className="col-sm-6">
+            <img
+              src={clash}
+              alt="clashzone"
+              className="mx-auto d-block"
+              style={{ maxWidth: "200px" }}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <h2 className="text-center pb-4">Sponsers</h2>
+        <div className="row">
+          <div className="col-sm-6">
+            <img
+              src={nuclear}
+              alt="nuclear storm"
+              className="mx-auto d-block"
+              style={{ maxWidth: "280px" }}
+            />
+          </div>
+          <div className="col-sm-6">
+            <img
+              src={clash}
+              alt="clashzone"
+              className="mx-auto d-block"
+              style={{ maxWidth: "200px" }}
+            />
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   )
 }

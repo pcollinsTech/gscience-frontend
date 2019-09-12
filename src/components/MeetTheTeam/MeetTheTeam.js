@@ -10,7 +10,11 @@ export default function MeetTheTeam() {
           <div className="col-sm-7">
             <div className="team_member row">
               <div className="col-sm-3">
-                <img src={ryan} alt="" className="team_member_image" />
+                <img
+                  src={ryan}
+                  alt=""
+                  className="team_member_image rounded-circle mx-auto d-block"
+                />
               </div>
               <div className="col-sm-9">
                 <h4>Ryan Scollan</h4>
@@ -30,7 +34,11 @@ export default function MeetTheTeam() {
             </div>
             <div className="team_member row">
               <div className="col-sm-3">
-                <img src={ryan} alt="" className="team_member_image" />
+                <img
+                  src={ryan}
+                  alt=""
+                  className="team_member_image rounded-circle mx-auto d-block"
+                />
               </div>
               <div className="col-sm-9">
                 <h4>Jamie Kiff</h4>
@@ -49,7 +57,11 @@ export default function MeetTheTeam() {
             </div>
             <div className="team_member row">
               <div className="col-sm-3">
-                <img src={ryan} alt="" className="team_member_image" />
+                <img
+                  src={ryan}
+                  alt=""
+                  className="team_member_image rounded-circle mx-auto d-block"
+                />
               </div>
               <div className="col-sm-9">
                 <h4>Ryan Scollan</h4>

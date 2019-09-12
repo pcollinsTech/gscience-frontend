@@ -1236,6 +1236,7 @@ Features Area CSS
         border-radius: 50%;
         font-size: 30px;
         transition: 0.4s;
+        
     }
     &:hover .icon {
         background: transparent;
@@ -1582,6 +1583,9 @@ Contact Area CSS
         color: $template_color;
         border: 1px solid $template_color;
         transition: 0.4s;
+        svg{
+            margin-bottom: 12px;    
+        }
     }
     &:hover .icon {
         background: $template_color;
