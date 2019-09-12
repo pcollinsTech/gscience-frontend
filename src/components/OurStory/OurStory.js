@@ -92,7 +92,7 @@ const OurStory = () => {
                 to healthier and more successful esports athletes.
               </p>
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-6 video-container">
               <br />
               <iframe
                 width="560"

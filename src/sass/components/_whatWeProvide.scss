@@ -10,3 +10,10 @@
   padding: 10px 120px;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .what_we_provide {
+    padding: 10px;
+    color: white;
+  }
+}
