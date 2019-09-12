@@ -5,7 +5,7 @@ const Optimal = () => {
     <React.Fragment>
       <div className="bg-dark py-5">
         <div className="container text-center">
-          <div className="row">
+          <div className="row pb-5">
             <div className="col-sm-6">
               <h2 className="">Optimal</h2>
               <p>(Powered By G-Science)</p>
