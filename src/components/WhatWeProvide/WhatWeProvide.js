@@ -28,9 +28,11 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
-                      Tailored recovery plans are devised using research driven
-                      protocols alongside the training and competition schedule
-                      of players
+                      <p>
+                        Tailored recovery plans are devised using research
+                        driven protocols alongside the training and competition
+                        schedule of players
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -43,10 +45,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                      Nutrition solutions are personalised to maximise the
-                      health and performance of individual. They are based upon
-                      player workload, fatigue , illness, performance goals and
-                      weekly schedule.
+                      <p>
+                        Nutrition solutions are personalised to maximise the
+                        health and performance of individual. They are based
+                        upon player workload, fatigue , illness, performance
+                        goals and weekly schedule.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -59,10 +63,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="2">
                     <Card.Body>
-                      Burnout in esports has become a major issue. By collecting
-                      longitudinal data from hundreds of players at all levels
-                      we are able to act proactively and provide solutions for
-                      those who may be at risk
+                      <p>
+                        Burnout in esports has become a major issue. By
+                        collecting longitudinal data from hundreds of players at
+                        all levels we are able to act proactively and provide
+                        solutions for those who may be at risk
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -75,10 +81,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                      Our research driven PST strategies are grounded in years
-                      of experience working with pro teams. They provide gamers
-                      with the skills to cope with the pressure of the main
-                      stage, how to deal with failure and many more.
+                      <p>
+                        Our research driven PST strategies are grounded in years
+                        of experience working with pro teams. They provide
+                        gamers with the skills to cope with the pressure of the
+                        main stage, how to deal with failure and many more.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -91,9 +99,11 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="4">
                     <Card.Body>
-                      We provide personalised sleep strategies based around the
-                      players schedule to ensure sleep quality and to maximise
-                      recovery
+                      <p>
+                        We provide personalised sleep strategies based around
+                        the players schedule to ensure sleep quality and to
+                        maximise recovery
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -106,9 +116,11 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="5">
                     <Card.Body>
-                      Cognitive load is quantified using several validated
-                      metrics to provide real-time feedback on player readiness
-                      and risk of burnout.
+                      <p>
+                        Cognitive load is quantified using several validated
+                        metrics to provide real-time feedback on player
+                        readiness and risk of burnout.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -121,9 +133,11 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="6">
                     <Card.Body>
-                      Tailored Esport Performance Metrics (Game dependent
-                      performance metrics are provided to give a true
-                      understanding of training and competition.
+                      <p>
+                        Tailored Esport Performance Metrics (Game dependent
+                        performance metrics are provided to give a true
+                        understanding of training and competition.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -152,10 +166,13 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur tempora eos ducimus labore sed aspernatur
-                      quos. Natus eos ut qui voluptate ipsa libero quisquam
-                      deserunt fuga, optio molestias sapiente ducimus!
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur tempora eos ducimus labore sed
+                        aspernatur quos. Natus eos ut qui voluptate ipsa libero
+                        quisquam deserunt fuga, optio molestias sapiente
+                        ducimus!
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -173,10 +190,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Iure, debitis magnam. Velit nemo harum architecto maxime
-                      fuga repellat, neque beatae sint ab recusandae molestiae
-                      obcaecati aperiam, eum nisi itaque vero.
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure, debitis magnam. Velit nemo harum architecto maxime
+                        fuga repellat, neque beatae sint ab recusandae molestiae
+                        obcaecati aperiam, eum nisi itaque vero.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -194,10 +213,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="2">
                     <Card.Body>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Iure, debitis magnam. Velit nemo harum architecto maxime
-                      fuga repellat, neque beatae sint ab recusandae molestiae
-                      obcaecati aperiam, eum nisi itaque vero.
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure, debitis magnam. Velit nemo harum architecto maxime
+                        fuga repellat, neque beatae sint ab recusandae molestiae
+                        obcaecati aperiam, eum nisi itaque vero.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -215,10 +236,12 @@ const WhatWeProvide = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Iure, debitis magnam. Velit nemo harum architecto maxime
-                      fuga repellat, neque beatae sint ab recusandae molestiae
-                      obcaecati aperiam, eum nisi itaque vero.
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure, debitis magnam. Velit nemo harum architecto maxime
+                        fuga repellat, neque beatae sint ab recusandae molestiae
+                        obcaecati aperiam, eum nisi itaque vero.
+                      </p>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

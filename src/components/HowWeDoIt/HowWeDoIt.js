@@ -1,12 +1,16 @@
 import React from "react"
+import tuition from "../../img/1on1.png"
+import bootcamp from "../../img/bootcamp.png"
+import competition from "../../img/competition-support.png"
 const HowWeDoIt = () => {
   return (
     <React.Fragment>
-      <div className="bg-dark py-5">
+      <div className=" py-5">
         <div className="container text-center">
           <h2 className="mb-5">How We Do It</h2>
           <div className="row">
             <div className="col-sm-4">
+              <img src={tuition} alt="" />
               <h3>1-1 Coaching</h3>
               <p>
                 Free 30 minute consultation followed by a tailored performance
@@ -14,6 +18,7 @@ const HowWeDoIt = () => {
               </p>
             </div>
             <div className="col-sm-4">
+              <img src={bootcamp} alt="" />
               <h3>Team Bootcamps</h3>
               <p>
                 Empower your players with a 3-day intense bootcamp where our
@@ -22,6 +27,7 @@ const HowWeDoIt = () => {
               </p>
             </div>
             <div className="col-sm-4">
+              <img src={competition} alt="" />
               <h3>Competition Support</h3>
               <p>
                 Full access to our multidisciplinary team throughout your

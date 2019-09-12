@@ -1,5 +1,6 @@
 import React from "react"
 import ryan from "../../img/Team/ryan.jpg"
+import jamie from "../../img/Team/jamie.png"
 
 export default function MeetTheTeam() {
   return (
@@ -35,7 +36,7 @@ export default function MeetTheTeam() {
             <div className="team_member row">
               <div className="col-sm-3">
                 <img
-                  src={ryan}
+                  src={jamie}
                   alt=""
                   className="team_member_image rounded-circle mx-auto d-block"
                 />
@@ -51,30 +52,6 @@ export default function MeetTheTeam() {
                   playing career at Fulham and QPR has given him an in depth
                   understanding of return to play and recovery protocols. His
                   favourite game is Apex Legends.
-                </p>
-                <div className="team_member_social"></div>
-              </div>
-            </div>
-            <div className="team_member row">
-              <div className="col-sm-3">
-                <img
-                  src={ryan}
-                  alt=""
-                  className="team_member_image rounded-circle mx-auto d-block"
-                />
-              </div>
-              <div className="col-sm-9">
-                <h4>Ryan Scollan</h4>
-                <p>
-                  Ryan is founder and CEO of G-Science. Something about how and
-                  why you came up with G-Science … along the lines of your
-                  passion for both Sport Science and esport made you realise how
-                  there was a serious issue with how players were trying to
-                  reach the top / improve their performance… therefore you used
-                  your first class degree from Loughborough alongside your
-                  extensive PT experience in order to combine technology and SS
-                  to take gamers to the next level. Has worked with several
-                  teams…...His favourite game is Call of Duty Blackout
                 </p>
                 <div className="team_member_social"></div>
               </div>

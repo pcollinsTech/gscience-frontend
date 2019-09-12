@@ -18,12 +18,13 @@ const Index = props => {
       <div id="OurStory">
         <OurStory />
       </div>
-      <div id="WhatWeProvide">
-        <WhatWeProvide />
-      </div>
       <div id="HowWeDoIt">
         <HowWeDoIt />
       </div>
+      <div id="WhatWeProvide">
+        <WhatWeProvide />
+      </div>
+
       <div id="MeetTheTeam">
         <MeetTheTeam />
       </div>

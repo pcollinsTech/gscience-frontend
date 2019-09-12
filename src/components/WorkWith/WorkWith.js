@@ -1,5 +1,7 @@
 import React from "react"
 import nuclear from "../../img/nuclear_storm.png"
+import investni from "../../img/investni.png"
+import ignite from "../../img/ignite.jpg"
 import clash from "../../img/clashzone.jpg"
 export default function WorkWith() {
   return (
@@ -30,7 +32,7 @@ export default function WorkWith() {
         <div className="row">
           <div className="col-sm-6">
             <img
-              src={nuclear}
+              src={investni}
               alt="nuclear storm"
               className="mx-auto d-block"
               style={{ maxWidth: "280px" }}
@@ -38,7 +40,7 @@ export default function WorkWith() {
           </div>
           <div className="col-sm-6">
             <img
-              src={clash}
+              src={ignite}
               alt="clashzone"
               className="mx-auto d-block"
               style={{ maxWidth: "200px" }}
