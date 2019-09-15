@@ -13,9 +13,14 @@ import Layout from "../layout/Layout"
 const Index = props => {
   return (
     <Layout props={props}>
-      <SEO title="Home" />
+      <SEO title="G-Science" />
 
-      <Banner />
+      <Banner
+        title="G-Science"
+        subtitle="Bringing the absolute best of sports science into esports."
+        href="#OurStory"
+        buttonTitle="Read Our Story"
+      />
       <div id="OurStory">
         <OurStory />
       </div>

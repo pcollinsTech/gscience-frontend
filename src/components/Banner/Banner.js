@@ -3,14 +3,26 @@ import PropTypes from "prop-types"
 import Particles from "react-particles-js"
 
 class Banner extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       isOpen: false,
     }
   }
 
   render() {
+    const {
+      title,
+      subtitle,
+      buttonTitle,
+      href,
+      animationImg1,
+      animationImg2,
+      animationImg3,
+      animationImg4,
+      animationImg5,
+      animationImg6,
+    } = this.props
     return (
       <React.Fragment>
         <div id="home">
@@ -39,36 +51,30 @@ class Banner extends Component {
                 />
               </div>
               <div className="hero-title">
-                <h1>G-Science</h1>
-                <h3>
-                  Bringing the absolute best of sports science into esports.
-                </h3>
+                <h1>{title}</h1>
+                <h3>{subtitle}</h3>
                 <button className="btn btn-primary">
-                  <a href="#OurStory">Read Our Story</a>
+                  <a href={href}>{buttonTitle}</a>
                 </button>
               </div>
             </div>
             <div className="animation-box1">
-              <img src={this.props.animationImg1} alt="sliderimage" />
+              <img src={animationImg1} alt="sliderimage" />
             </div>
             <div className="animation-box2">
-              <img src={this.props.animationImg2} alt="sliderimage" />
+              <img src={animationImg2} alt="sliderimage" />
             </div>
             {/* <div className="animation-box3">
-              <img src={this.props.animationImg3} alt="sliderimage" />
+              <img src={animationImg3} alt="sliderimage" />
             </div> */}
             <div className="animation-box4">
-              <img src={this.props.animationImg4} alt="sliderimage" />
+              <img src={animationImg4} alt="sliderimage" />
             </div>
             <div className="animation-box6">
-              <img src={this.props.animationImg5} alt="sliderimage" />
+              <img src={animationImg5} alt="sliderimage" />
             </div>
             <div className="animation-box7">
-              <img
-                src={this.props.animationImg6}
-                className="rotateme"
-                alt="sliderimage"
-              />
+              <img src={animationImg6} className="rotateme" alt="sliderimage" />
             </div>
           </div>
         </div>
