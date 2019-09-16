@@ -52,20 +52,20 @@ class NavBar extends Component {
               <Nav className="ml-auto">
                 <Nav.Item>
                   <Link
-                    to="about"
+                    to="#about"
                     className="nav-link"
                     onClick={this.closeNavbar}
                   >
                     About Us
                   </Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Link to="/" className="nav-link" onClick={this.closeNavbar}>
                     Health
                   </Link>
-                </Nav.Item>
+                </Nav.Item> */}
 
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Link
                     to="/gaming-issues"
                     offset={-70}
@@ -75,7 +75,7 @@ class NavBar extends Component {
                   >
                     Gaming Issues
                   </Link>
-                </Nav.Item>
+                </Nav.Item> */}
                 {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <Link to="/what-is-bitcoin">What is Bitcoin?</Link>

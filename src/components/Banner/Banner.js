@@ -28,7 +28,7 @@ class Banner extends Component {
         <div id="home">
           <div className="main-banner bg-image-hero overlay-hero">
             <div className="d-table">
-              <div className="d-table-cell particles-container">
+              <div className="d-table-cell particles-container mobile">
                 <Particles
                   params={{
                     particles: {
