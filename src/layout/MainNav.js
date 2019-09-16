@@ -41,31 +41,30 @@ class NavBar extends Component {
           className="navbar navbar-expand-lg "
           collapseOnSelect={true}
         >
-          <Container>
-            <Navbar.Brand>
-              <Link to="/">
-                <img src={logo} alt="logo" />
-              </Link>
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" id="collaspe-btn" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto">
-                <Nav.Item>
-                  <Link
-                    to="#about"
-                    className="nav-link"
-                    onClick={this.closeNavbar}
-                  >
-                    About Us
-                  </Link>
-                </Nav.Item>
-                {/* <Nav.Item>
+          <Navbar.Brand>
+            <Link to="/">
+              <img src={logo} alt="logo" />
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" id="collaspe-btn" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Item>
+                <Link
+                  to="#about"
+                  className="nav-link"
+                  onClick={this.closeNavbar}
+                >
+                  About Us
+                </Link>
+              </Nav.Item>
+              {/* <Nav.Item>
                   <Link to="/" className="nav-link" onClick={this.closeNavbar}>
                     Health
                   </Link>
                 </Nav.Item> */}
 
-                {/* <Nav.Item>
+              {/* <Nav.Item>
                   <Link
                     to="/gaming-issues"
                     offset={-70}
@@ -76,7 +75,7 @@ class NavBar extends Component {
                     Gaming Issues
                   </Link>
                 </Nav.Item> */}
-                {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <Link to="/what-is-bitcoin">What is Bitcoin?</Link>
                                     </NavDropdown.Item>
@@ -100,35 +99,34 @@ class NavBar extends Component {
                                     </NavDropdown.Item>
                                 </NavDropdown> */}
 
-                <Nav.Item>
-                  <Link
-                    to="#Optimal"
-                    offset={-70}
-                    duration={800}
-                    className="nav-link"
-                    onClick={this.closeNavbar}
-                  >
-                    Optimal
-                  </Link>
-                </Nav.Item>
+              <Nav.Item>
+                <Link
+                  to="#Optimal"
+                  offset={-70}
+                  duration={800}
+                  className="nav-link"
+                  onClick={this.closeNavbar}
+                >
+                  Optimal
+                </Link>
+              </Nav.Item>
 
-                <Nav.Item>
-                  <Link
-                    to="/blog"
-                    className="nav-link"
-                    onClick={this.closeNavbar}
-                  >
-                    Blog
-                  </Link>
-                </Nav.Item>
+              <Nav.Item>
+                <Link
+                  to="/blog"
+                  className="nav-link"
+                  onClick={this.closeNavbar}
+                >
+                  Blog
+                </Link>
+              </Nav.Item>
 
-                <Nav.Item>
-                  {/* SideNav: src/components/SideNav */}
-                  <SideNav />
-                </Nav.Item>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
+              <Nav.Item>
+                {/* SideNav: src/components/SideNav */}
+                <SideNav />
+              </Nav.Item>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </div>
     )
