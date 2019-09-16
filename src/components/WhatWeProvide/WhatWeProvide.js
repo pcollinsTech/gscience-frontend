@@ -19,7 +19,7 @@ const WhatWeProvide = () => {
                   <Accordion.Toggle
                     as={Card.Header}
                     eventKey="0"
-                    onClick={accordianClick}
+                    onClick={accordianClick(1)}
                   >
                     Recovery Methods
                     <span className="accordian_icon_right">
@@ -37,7 +37,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="1">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="1"
+                    onClick={accordianClick}
+                  >
                     Performance Nutrition{" "}
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -55,7 +59,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="2">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="2"
+                    onClick={accordianClick}
+                  >
                     Burnout Prevention
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -73,7 +81,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="3">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="3"
+                    onClick={accordianClick}
+                  >
                     Psychological Skills Training{" "}
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -91,7 +103,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="4">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="4"
+                    onClick={accordianClick}
+                  >
                     Sleep Analysis
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -108,7 +124,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="5">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="5"
+                    onClick={accordianClick}
+                  >
                     Cognitive Load Monitoring{" "}
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -125,7 +145,11 @@ const WhatWeProvide = () => {
                   </Accordion.Collapse>
                 </Card>
                 <Card style={{ backgroundColor: "transparent" }}>
-                  <Accordion.Toggle as={Card.Header} eventKey="6">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="6"
+                    onClick={accordianClick}
+                  >
                     Tailored Esport Performance Metrics{" "}
                     <span className="accordian_icon_right">
                       <FaPlusCircle />
@@ -182,7 +206,11 @@ const WhatWeProvide = () => {
                     textAlign: "right",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="1">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="1"
+                    onClick={accordianClick}
+                  >
                     <span className="accordian_icon_left">
                       <FaPlusCircle />
                     </span>
@@ -205,7 +233,11 @@ const WhatWeProvide = () => {
                     textAlign: "right",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="2">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="2"
+                    onClick={accordianClick}
+                  >
                     <span className="accordian_icon_left">
                       <FaPlusCircle />
                     </span>
@@ -228,7 +260,11 @@ const WhatWeProvide = () => {
                     textAlign: "right",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="3">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="3"
+                    onClick={accordianClick}
+                  >
                     <span className="accordian_icon_left">
                       <FaPlusCircle />
                     </span>

@@ -1,6 +1,9 @@
 import SEO from "../components/seo"
 import React from "react"
 import Banner from "../components/Banner"
+import Optimal from "../components/Optimal"
+import OptimalSignup from "../components/OptimalSignup"
+import Layout from "../layout/Layout"
 
 const Index = props => {
   return (
@@ -41,7 +44,7 @@ const Index = props => {
         </div>
       </section>
 
-      <ContactUs />
+      <OptimalSignup />
     </Layout>
   )
 }
