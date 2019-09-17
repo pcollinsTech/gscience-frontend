@@ -49,7 +49,7 @@ class NavBar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" id="collaspe-btn" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Link
                   to="#about"
                   className="nav-link"
@@ -57,7 +57,7 @@ class NavBar extends Component {
                 >
                   About Us
                 </Link>
-              </Nav.Item>
+              </Nav.Item> */}
               {/* <Nav.Item>
                   <Link to="/" className="nav-link" onClick={this.closeNavbar}>
                     Health
