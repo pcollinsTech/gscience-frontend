@@ -69,10 +69,6 @@ const OurStory = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
-              <h2>
-                <b>Our Philosophy</b>
-              </h2>
-              <br />
               <h3 className="green">
                 “Our philosophy is simple, we build the best version of you”
               </h3>

@@ -43,8 +43,8 @@
   float: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .mobile {
-    display: none;
+    display: none !important;
   }
 }

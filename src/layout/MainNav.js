@@ -101,7 +101,7 @@ class NavBar extends Component {
 
               <Nav.Item>
                 <Link
-                  to="#Optimal"
+                  to="/optimal"
                   offset={-70}
                   duration={800}
                   className="nav-link"
