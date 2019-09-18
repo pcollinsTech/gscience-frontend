@@ -6,20 +6,33 @@
 
 @import "settings";
 
-//layout
+// Layout
 @import "layout/navbar";
 @import "layout/footer";
 
-// components
+// Components
 @import "components/postItem";
 @import "components/ourStory";
 @import "components/meetTheTeam";
 @import "components/whatWeProvide";
+@import "components/blogCard";
+@import "components/pagination";
+@import "components/postList";
 @import "components/banner";
+
+// Pages
+@import "pages/blog";
+// Templates
+@import "templates/blog";
+@import "templates/post";
 @import "exolot_popup";
 @import "exolot_responsive";
 
 @import "exolot_style";
+
+a {
+  color: $primary-color;
+}
 
 .green {
   color: $primary-color;
