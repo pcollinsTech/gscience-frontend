@@ -33,6 +33,7 @@ module.exports = {
           "**/options",
           "**/stats",
           "**/alert",
+          "**/jetpack",
           "**/configurator",
           "**/reindex_posts",
           "**/ryte",
