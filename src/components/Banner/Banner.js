@@ -33,7 +33,7 @@ class Banner extends Component {
                   params={{
                     particles: {
                       number: {
-                        value: 80,
+                        value: 180,
                       },
                       size: {
                         value: 3,

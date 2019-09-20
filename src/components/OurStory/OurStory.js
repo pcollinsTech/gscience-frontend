@@ -97,6 +97,7 @@ const OurStory = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                title="G-Science"
               ></iframe>
             </div>
           </div>

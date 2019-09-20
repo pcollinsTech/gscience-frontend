@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { Navbar, Nav, Container } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import logo from "../img/logo.png"
 import SideNav from "./SideNav"
 
