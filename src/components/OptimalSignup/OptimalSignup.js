@@ -6,9 +6,6 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaPhone,
-  FaEnvelope,
-  FaMapPin,
 } from "react-icons/fa"
 
 export class OptimalSignup extends Component {

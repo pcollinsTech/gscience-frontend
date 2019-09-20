@@ -11,18 +11,7 @@ class Banner extends Component {
   }
 
   render() {
-    const {
-      title,
-      subtitle,
-      buttonTitle,
-      href,
-      animationImg1,
-      animationImg2,
-      animationImg3,
-      animationImg4,
-      animationImg5,
-      animationImg6,
-    } = this.props
+    const { title, subtitle, buttonTitle, href } = this.props
     return (
       <React.Fragment>
         <div id="home">
@@ -33,7 +22,7 @@ class Banner extends Component {
                   params={{
                     particles: {
                       number: {
-                        value: 180,
+                        value: 150,
                       },
                       size: {
                         value: 3,
@@ -58,24 +47,6 @@ class Banner extends Component {
                 </button>
               </div>
             </div>
-            <div className="animation-box1">
-              <img src={animationImg1} alt="sliderimage" />
-            </div>
-            <div className="animation-box2">
-              <img src={animationImg2} alt="sliderimage" />
-            </div>
-            {/* <div className="animation-box3">
-              <img src={animationImg3} alt="sliderimage" />
-            </div> */}
-            <div className="animation-box4">
-              <img src={animationImg4} alt="sliderimage" />
-            </div>
-            <div className="animation-box6">
-              <img src={animationImg5} alt="sliderimage" />
-            </div>
-            <div className="animation-box7">
-              <img src={animationImg6} className="rotateme" alt="sliderimage" />
-            </div>
           </div>
         </div>
       </React.Fragment>
@@ -84,22 +55,7 @@ class Banner extends Component {
 }
 
 Banner.propTypes = {
-  animationImg1: PropTypes.string,
-  animationImg2: PropTypes.string,
-  animationImg3: PropTypes.string,
-  animationImg4: PropTypes.string,
-  animationImg5: PropTypes.string,
-  animationImg6: PropTypes.string,
   BannerData: PropTypes.array,
-}
-
-Banner.defaultProps = {
-  animationImg1: require("../../img/1.png"),
-  animationImg2: require("../../img/2.png"),
-  animationImg3: require("../../img/1.png"),
-  animationImg4: require("../../img/5.png"),
-  animationImg5: require("../../img/6.png"),
-  animationImg6: require("../../img/7.png"),
 }
 
 export default Banner
