@@ -106,6 +106,7 @@ class NavBar extends Component {
                   duration={800}
                   className="nav-link"
                   onClick={this.closeNavbar}
+                  activeClassName="active"
                 >
                   Optimal
                 </Link>
@@ -116,6 +117,7 @@ class NavBar extends Component {
                   to="/blog"
                   className="nav-link"
                   onClick={this.closeNavbar}
+                  activeClassName="active"
                 >
                   Blog
                 </Link>

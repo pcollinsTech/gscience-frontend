@@ -87,27 +87,27 @@ export class SideNav extends Component {
 
             <ul className="social-links">
               <li>
-                <a href={this.props.facebooklink}>
+                <a href={this.props.facebooklink} target="__blank">
                   <FaFacebookF />
                 </a>
               </li>
               <li>
-                <a href={this.props.twitterlink}>
+                <a href={this.props.twitterlink} target="__blank">
                   <FaTwitter />
                 </a>
               </li>
               <li>
-                <a href={this.props.instagramlink}>
+                <a href={this.props.instagramlink} target="__blank">
                   <FaInstagram />
                 </a>
               </li>
               <li>
-                <a href={this.props.linkedinlink}>
+                <a href={this.props.linkedinlink} target="__blank">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li>
-                <a href={this.props.pinterestlink}>
+                <a href={this.props.pinterestlink} target="__blank">
                   <FaPinterest />
                 </a>
               </li>
@@ -145,7 +145,7 @@ SideNav.defaultProps = {
   mailbolot: "info@gscience.gg",
   mailnormal: "Online support & enquiries",
   facebooklink: "#",
-  twitterlink: "#",
+  twitterlink: "https://twitter.com/gscienceio",
   instagramlink: "#",
   linkedinlink: "#",
   pinterestlink: "#",

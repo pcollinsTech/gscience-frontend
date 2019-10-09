@@ -5,6 +5,7 @@ module.exports = {
     author: `@gscience`,
     twitterHandle: "@Ryan_Gscience",
     url: "https://g-science.io",
+    author: `@gscience`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
