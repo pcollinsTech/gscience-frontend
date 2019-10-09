@@ -10,11 +10,11 @@ class Blog extends React.Component {
       <Layout>
         <SEO title="G-Science | Blog" />
 
-        <Banner title="Blog." />
+        <Banner title="News." />
 
         <div id="main">
           <div id="on_the_blog">
-            <h2 className="text-center mb-5">On The Blog</h2>
+            <h2 className="text-center mb-5">In The News</h2>
 
             <div className="row">
               <div className="container blog__container">

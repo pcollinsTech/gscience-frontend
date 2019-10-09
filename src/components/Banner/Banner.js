@@ -43,7 +43,6 @@ class Banner extends Component {
               <div className="hero-title">
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
-                {button}
               </div>
             </div>
           </div>

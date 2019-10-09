@@ -119,7 +119,7 @@ class NavBar extends Component {
                   onClick={this.closeNavbar}
                   activeClassName="active"
                 >
-                  Blog
+                  News
                 </Link>
               </Nav.Item>
 
