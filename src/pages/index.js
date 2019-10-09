@@ -30,11 +30,12 @@ const Index = props => {
       <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>
+
       <div id="Optimal">
         <Optimal />
       </div>
 
-      <div id="MeetTheTeam">
+      <div id="MeetTheTeam" className="bg-dark">
         <MeetTheTeam />
       </div>
       <div id="WorkWith">

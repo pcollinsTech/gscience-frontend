@@ -7,7 +7,7 @@ const HowWeDoIt = () => {
     <React.Fragment>
       <div className=" py-5">
         <div className="container text-center">
-          <h2 className="mb-5">How We Do It</h2>
+          {/* <h2 className="mb-5">How We Do It</h2> */}
           <div className="row">
             <div className="col-sm-4">
               <img src={tuition} alt="" />

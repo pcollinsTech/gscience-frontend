@@ -8,7 +8,7 @@ export default function MeetTheTeam() {
       <div className="container py-5 team">
         <h2 className="text-center pb-4">Meet The Team</h2>
         <div className="row">
-          <div className="col-sm-7">
+          <div className="col-sm-6">
             <div className="team_member row">
               <div className="col-sm-3">
                 <img
@@ -34,15 +34,15 @@ export default function MeetTheTeam() {
               </div>
             </div>
             <div className="team_member row">
-              <div className="col-sm-3">
+              {/* <div className="col-sm-3">
                 <img
                   src={jamie}
                   alt=""
                   className="team_member_image rounded-circle mx-auto d-block"
                 />
-              </div>
+              </div> */}
               <div className="col-sm-9">
-                <h4>Jamie Kiff</h4>
+                {/* <h4>Jamie Kiff</h4>
                 <p>
                   Jamie is the Lead Performance Scientist at G-Science. He has
                   worked with a number of national and international athletes
@@ -53,12 +53,32 @@ export default function MeetTheTeam() {
                   understanding of return to play and recovery protocols. His
                   favourite game is Apex Legends.
                 </p>
-                <div className="team_member_social"></div>
+                <div className="team_member_social"></div> */}
               </div>
             </div>
           </div>
-          <div className="col-sm-5 text-right pl-5">
-            <h4>A Team Within Our Team</h4>
+          <div className="col-sm-6 text-right pl-5 row">
+            <div className="col-sm-3">
+              <img
+                src={jamie}
+                alt=""
+                className="team_member_image rounded-circle mx-auto d-block"
+              />
+            </div>
+            <div className="col-sm-9">
+              <h4>Jamie Kiff</h4>
+              <p>
+                Jamie is the Lead Performance Scientist at G-Science. He has
+                worked with a number of national and international athletes
+                throughout his time as a Strength and Conditioning coach at both
+                Bath and Loughborough University. His thesis on BFR and muscular
+                function alongside various injuries throughout his playing
+                career at Fulham and QPR has given him an in depth understanding
+                of return to play and recovery protocols. His favourite game is
+                Apex Legends.
+              </p>
+              <div className="team_member_social"></div>
+              {/* <h4>A Team Within Our Team</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
               nihil tempora doloribus iusto culpa esse earum, delectus
@@ -67,7 +87,8 @@ export default function MeetTheTeam() {
             </p>
             <button className="btn btn-primary">
               <a href="#about">Meet the rest of the team</a>
-            </button>
+            </button> */}
+            </div>
           </div>
         </div>
       </div>

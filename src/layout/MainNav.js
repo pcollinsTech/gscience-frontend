@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { Navbar, Nav } from "react-bootstrap"
+import { Navbar, Nav, Container, Row } from "react-bootstrap"
 import logo from "../img/logo.png"
 import SideNav from "./SideNav"
 
@@ -34,22 +34,27 @@ class NavBar extends Component {
   render() {
     return (
       <div className="nav-wrapper">
-        <Navbar
-          sticky="top"
-          id="navbar"
-          expand="lg"
-          className="navbar navbar-expand-lg "
-          collapseOnSelect={true}
-        >
-          <Navbar.Brand>
-            <Link to="/">
-              <img src={logo} alt="logo" />
-            </Link>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" id="collaspe-btn" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              {/* <Nav.Item>
+        <Container>
+          <Row>
+            <Navbar
+              sticky="top"
+              id="navbar"
+              expand="lg"
+              className="navbar navbar-expand-lg "
+              collapseOnSelect={true}
+            >
+              <Navbar.Brand>
+                <Link to="/">
+                  <img src={logo} alt="logo" />
+                </Link>
+              </Navbar.Brand>
+              <Navbar.Toggle
+                aria-controls="basic-navbar-nav"
+                id="collaspe-btn"
+              />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="ml-auto">
+                  {/* <Nav.Item>
                 <Link
                   to="#about"
                   className="nav-link"
@@ -58,13 +63,13 @@ class NavBar extends Component {
                   About Us
                 </Link>
               </Nav.Item> */}
-              {/* <Nav.Item>
+                  {/* <Nav.Item>
                   <Link to="/" className="nav-link" onClick={this.closeNavbar}>
                     Health
                   </Link>
                 </Nav.Item> */}
 
-              {/* <Nav.Item>
+                  {/* <Nav.Item>
                   <Link
                     to="/gaming-issues"
                     offset={-70}
@@ -75,7 +80,7 @@ class NavBar extends Component {
                     Gaming Issues
                   </Link>
                 </Nav.Item> */}
-              {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
+                  {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <Link to="/what-is-bitcoin">What is Bitcoin?</Link>
                                     </NavDropdown.Item>
@@ -99,35 +104,39 @@ class NavBar extends Component {
                                     </NavDropdown.Item>
                                 </NavDropdown> */}
 
-              <Nav.Item>
-                <Link
-                  to="/optimal"
-                  offset={-70}
-                  duration={800}
-                  className="nav-link"
-                  onClick={this.closeNavbar}
-                >
-                  Optimal
-                </Link>
-              </Nav.Item>
+                  <Nav.Item>
+                    <Link
+                      to="/optimal"
+                      offset={-70}
+                      duration={800}
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      Optimal
+                    </Link>
+                  </Nav.Item>
 
-              <Nav.Item>
-                <Link
-                  to="/blog"
-                  className="nav-link"
-                  onClick={this.closeNavbar}
-                >
-                  Blog
-                </Link>
-              </Nav.Item>
+                  <Nav.Item>
+                    <Link
+                      to="/blog"
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      Blog
+                    </Link>
+                  </Nav.Item>
 
-              <Nav.Item>
-                {/* SideNav: src/components/SideNav */}
-                <SideNav />
-              </Nav.Item>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+                  <Nav.Item>
+                    {/* SideNav: src/components/SideNav */}
+                    <SideNav />
+                  </Nav.Item>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          </Row>
+        </Container>
       </div>
     )
   }

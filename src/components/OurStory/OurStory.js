@@ -2,7 +2,7 @@ import React from "react"
 const OurStory = () => {
   return (
     <React.Fragment>
-      <section className="welcome-area ptb-100">
+      <section className="welcome-area pt-5">
         <div className="container">
           <div className="section-title">
             <h2>
@@ -64,8 +64,9 @@ const OurStory = () => {
             </div>
           </div> */}
         </div>
+        <hr style={{ width: "40%" }} />
       </section>
-      <div className="bg-dark py-5">
+      {/* <div className="bg-dark py-5">
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
@@ -102,7 +103,7 @@ const OurStory = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   )
 }
