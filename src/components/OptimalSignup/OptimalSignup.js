@@ -171,7 +171,6 @@ OptimalSignup.PropsTypes = {
   twitterlink: PropTypes.string,
   instagramlink: PropTypes.string,
   linkedinlink: PropTypes.string,
-  contactussData: PropTypes.array,
 }
 OptimalSignup.defaultProps = {
   sectionTitle: "Sign Up",
@@ -185,31 +184,5 @@ OptimalSignup.defaultProps = {
   twitterlink: "#",
   instagramlink: "#",
   linkedinlink: "#",
-  contactussData: [
-    {
-      boxicon: "fas fa-map-pin",
-      boxtitle: "Address",
-      boxitem1link: "#",
-      boxitem1: "Exercisplan 4, 111 49",
-      boxitem2link: "#",
-      boxitem2: "Stockholm, Sweden",
-    },
-    {
-      boxicon: "fas fa-envelope",
-      boxtitle: "Email",
-      boxitem1link: "#",
-      boxitem1: "Info@exolot.com",
-      boxitem2link: "#",
-      boxitem2: "support@exolot.com",
-    },
-    {
-      boxicon: "fas fa-phone",
-      boxtitle: "Phone",
-      boxitem1link: "#",
-      boxitem1: "+44 4587 458",
-      boxitem2link: "#",
-      boxitem2: "+44 4587 458",
-    },
-  ],
 }
 export default OptimalSignup

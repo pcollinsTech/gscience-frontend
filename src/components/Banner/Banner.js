@@ -12,6 +12,7 @@ class Banner extends Component {
 
   render() {
     const { title, subtitle, buttonTitle, href } = this.props
+
     return (
       <React.Fragment>
         <div id="home">

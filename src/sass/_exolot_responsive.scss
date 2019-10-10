@@ -7,7 +7,6 @@ $value_three: 991px;
 $value_four: 992px;
 $value_five: 1199px;
 $value_six: 1400px;
-$template_color: #0b9444;
 
 @media only #{$media} and ($feature_max : $value_one) {
   .ptb-100 {
@@ -80,11 +79,11 @@ $template_color: #0b9444;
     }
     &.navbar-light {
       .navbar-toggler {
-        color: $template_color;
+        color: _palette(bg);
         outline: 0 !important;
         border-radius: 0;
         padding: 0.25rem 0.55rem;
-        border-color: $template_color;
+        border-color: _palette(bg);
 
         .navbar-toggler-icon {
           background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 194, 27, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -103,7 +102,7 @@ $template_color: #0b9444;
             color: #000000;
 
             &.active {
-              color: $template_color;
+              color: _palette(bg);
             }
           }
         }
@@ -506,11 +505,11 @@ $template_color: #0b9444;
     }
     &.navbar-light {
       .navbar-toggler {
-        color: $template_color;
+        color: _palette(bg);
         outline: 0 !important;
         border-radius: 0;
         padding: 0.25rem 0.55rem;
-        border-color: $template_color;
+        border-color: _palette(bg);
 
         .navbar-toggler-icon {
           background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 194, 27, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -527,7 +526,7 @@ $template_color: #0b9444;
             color: #000000;
 
             &.active {
-              color: $template_color;
+              color: _palette(bg);
             }
           }
         }

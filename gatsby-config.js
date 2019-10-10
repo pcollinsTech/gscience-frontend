@@ -3,6 +3,9 @@ module.exports = {
     title: `G-Science`,
     description: `Bringing the absolute best of sports science into esports.`,
     author: `@gscience`,
+    twitterHandle: "@Ryan_Gscience",
+    url: "https://g-science.io",
+    author: `@gscience`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +19,36 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        baseUrl: "eprotrainer.com",
+        protocol: "https",
+        // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
+        // This feature is untested for sites hosted on wordpress.com.
+        // Defaults to true.
+        useACF: true,
+        // Blacklisted routes using glob patterns
+        excludedRoutes: [
+          "**/settings",
+          "**/options",
+          "**/stats",
+          "**/alert",
+          "**/jetpack",
+          "**/configurator",
+          "**/reindex_posts",
+          "**/ryte",
+          "**/statistics",
+          "***/users",
+          "***/options",
+          "**/key",
+        ],
+        // use a custom normalizer which is applied after the built-in ones.
+        normalizer: function({ entities }) {
+          return entities
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

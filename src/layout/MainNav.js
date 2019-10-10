@@ -113,18 +113,6 @@ class NavBar extends Component {
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      Our Story
-                    </Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Link
-                      to="/optimal"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
                       Optimal
                     </Link>
                   </Nav.Item>
@@ -136,7 +124,7 @@ class NavBar extends Component {
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      Blog
+                      News
                     </Link>
                   </Nav.Item>
 
