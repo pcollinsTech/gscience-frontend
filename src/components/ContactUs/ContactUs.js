@@ -36,7 +36,6 @@ export class ContactUs extends Component {
               <h2>
                 {this.props.sectionTitle} <b>{this.props.sectionTitleSpan}</b>
               </h2>
-              <p>{this.props.sectionContent}</p>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-6">
@@ -197,8 +196,7 @@ ContactUs.defaultProps = {
   sectionContent:
     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
   title: "Get in Touch",
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  content: "If you want to find out more about the services we provide ",
   fblink: "#",
   twitterlink: "#",
   instagramlink: "#",

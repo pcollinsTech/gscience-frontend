@@ -17,7 +17,7 @@ const Index = props => {
 
       <Banner
         title="G-Science"
-        subtitle="Taking your performance to the next level."
+        subtitle="Building the next generation of esports athletes"
         href="#OurStory"
         buttonTitle="Read Our Story"
       />

@@ -57,7 +57,7 @@ export default function MeetTheTeam() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 text-right pl-5 row">
+          <div className="col-sm-6  pl-5 row">
             <div className="col-sm-3">
               <img
                 src={jamie}

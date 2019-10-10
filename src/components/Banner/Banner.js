@@ -41,7 +41,7 @@ class Banner extends Component {
               </div>
               <div className="hero-title">
                 <h1>{title}</h1>
-                <h3>{subtitle}</h3>
+                <h3 className="pb-4">{subtitle}</h3>
                 <button className="btn btn-primary">
                   <a href={href}>{buttonTitle}</a>
                 </button>

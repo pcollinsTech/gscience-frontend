@@ -5,14 +5,9 @@ const OurStory = () => {
       <section className="welcome-area pt-5">
         <div className="container">
           <div className="section-title">
-            <h2>
-              <b>Our story</b>
+            <h2 className="green">
+              <b>“Building the next generation of esports athletes”</b>
             </h2>
-            <br />
-            <h3 className="green">
-              “Our mission at G-Science is to build the next generation of
-              esports athletes”
-            </h3>
             <br />
             <p>
               We take a holistic approach to performance optmisation by
@@ -21,52 +16,9 @@ const OurStory = () => {
               happier outside of their gaming career.
             </p>
           </div>
-
-          {/* <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-box">
-                <img src={bitcoin} alt="" />
-                <h3>Bitcoin</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor voluptatem placeat veritatis, reprehenderit dolorem
-                  accusantium ea distinctio, eius quibusdam consequuntur omnis
-                  velit impedit nobis voluptas cum architecto maxime aliquid
-                  facilis.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-box">
-                <img src={ethereum} alt="" />
-                <h3>Ethereum</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor voluptatem placeat veritatis, reprehenderit dolorem
-                  accusantium ea distinctio, eius quibusdam consequuntur omnis
-                  velit impedit nobis voluptas cum architecto maxime aliquid
-                  facilis.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-box">
-                <img src={litecoin} alt="" />
-                <h3>Litecoin</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor voluptatem placeat veritatis, reprehenderit dolorem
-                  accusantium ea distinctio, eius quibusdam consequuntur omnis
-                  velit impedit nobis voluptas cum architecto maxime aliquid
-                  facilis.
-                </p>
-              </div>
-            </div>
-          </div> */}
         </div>
-        <hr style={{ width: "40%" }} />
       </section>
-      {/* <div className="bg-dark py-5">
+      <div className="bg-dark py-5">
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
@@ -103,7 +55,7 @@ const OurStory = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </React.Fragment>
   )
 }
