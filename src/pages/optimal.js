@@ -10,6 +10,7 @@ const Index = props => {
     <Layout props={props}>
       <SEO title="Optimal" />
       <Banner
+        path={props.path}
         title="Optimal"
         subtitle="Take Your Gaming To The Next Level"
         href="#OurStory"

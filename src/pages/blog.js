@@ -6,11 +6,12 @@ import BlogCard from "../components/BlogCard"
 
 class Blog extends React.Component {
   render() {
+    console.log("BLOG PAGE PROPS", this.props)
     return (
       <Layout>
         <SEO title="G-Science | Blog" />
 
-        <Banner title="News." />
+        <Banner path={this.props.path} title="News." />
 
         <div id="main">
           <div id="on_the_blog">

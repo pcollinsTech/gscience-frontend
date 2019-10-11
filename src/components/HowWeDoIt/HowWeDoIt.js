@@ -9,7 +9,7 @@ const HowWeDoIt = () => {
         <div className="container text-center">
           {/* <h2 className="mb-5">How We Do It</h2> */}
           <div className="row pb-5">
-            <div className="col-sm-4">
+            <div className="col-sm-4 ">
               <img src={tuition} alt="" />
               <h3>1-1 Coaching</h3>
               <p>
@@ -18,7 +18,7 @@ const HowWeDoIt = () => {
               </p>
               <button class="btn btn-primary text-center"> Learn more</button>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 ">
               <img src={bootcamp} alt="" />
               <h3>Team Bootcamps</h3>
               <p>
@@ -28,7 +28,7 @@ const HowWeDoIt = () => {
               </p>
               <button class="btn btn-primary text-center"> Learn more</button>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 ">
               <img src={competition} alt="" />
               <h3>Competition Support</h3>
               <p>

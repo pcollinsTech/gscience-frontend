@@ -28,6 +28,7 @@
     "react-icons": "^3.7.0",
     "react-particles-js": "^2.7.0",
     "react-share": "^3.0.1",
+    "react-visibility-sensor": "^5.1.1",
     "reactstrap": "^8.0.1"
   },
   "devDependencies": {

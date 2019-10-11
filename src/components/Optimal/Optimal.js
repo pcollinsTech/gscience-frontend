@@ -21,10 +21,6 @@ const Optimal = () => {
                 <a href="/optimal">Learn More</a>
               </button>
             </div>
-
-            <div className="col-sm-6">
-              <img src={coach_dashboard} alt="" />
-            </div>
           </div>
         </div>
       </div>

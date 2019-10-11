@@ -32,6 +32,8 @@ class NavBar extends Component {
     }
   }
   render() {
+    const { router } = this.props
+
     return (
       <div className="nav-wrapper">
         <Container>
@@ -54,56 +56,42 @@ class NavBar extends Component {
               />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  {/* <Nav.Item>
-                <Link
-                  to="#about"
-                  className="nav-link"
-                  onClick={this.closeNavbar}
-                >
-                  About Us
-                </Link>
-              </Nav.Item> */}
-                  {/* <Nav.Item>
-                  <Link to="/" className="nav-link" onClick={this.closeNavbar}>
-                    Health
-                  </Link>
-                </Nav.Item> */}
-
-                  {/* <Nav.Item>
-                  <Link
-                    to="/gaming-issues"
-                    offset={-70}
-                    duration={800}
-                    className="nav-link"
-                    onClick={this.closeNavbar}
-                  >
-                    Gaming Issues
-                  </Link>
-                </Nav.Item> */}
-                  {/* <NavDropdown title="Academy" id="basic-nav-dropdown">
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-bitcoin">What is Bitcoin?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-ethereum">What is Ethereum?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-cryptocurrency">What is CryptoCurrency?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-a-wallet">What is a Wallet?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-a-blockchain">What is a Blockchain?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-money">What is Money?</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/what-is-an-altcoin">What is an Altcoin</Link>
-                                    </NavDropdown.Item>
-                                </NavDropdown> */}
-
+                  <Nav.Item>
+                    <Link
+                      to="#HowWeDoIt"
+                      offset={-70}
+                      duration={800}
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      How We Do It
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Link
+                      to="#OurStory"
+                      offset={-70}
+                      duration={800}
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      Who We Are
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Link
+                      to="#WhatWeProvide"
+                      offset={-70}
+                      duration={800}
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      What We Provide
+                    </Link>
+                  </Nav.Item>
                   <Nav.Item>
                     <Link
                       to="/optimal"
@@ -116,7 +104,16 @@ class NavBar extends Component {
                       Optimal
                     </Link>
                   </Nav.Item>
-
+                  <Nav.Item>
+                    <Link
+                      to="/blog"
+                      className="nav-link"
+                      onClick={this.closeNavbar}
+                      activeClassName="active"
+                    >
+                      Resources
+                    </Link>
+                  </Nav.Item>
                   <Nav.Item>
                     <Link
                       to="/blog"

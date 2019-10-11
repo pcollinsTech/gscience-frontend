@@ -31,6 +31,10 @@ module.exports = {
         // Blacklisted routes using glob patterns
         excludedRoutes: [
           "**/settings",
+          "**/wpcom",
+          "**/acf",
+          "**/wp",
+          "**/wpcomsh",
           "**/options",
           "**/stats",
           "**/alert",

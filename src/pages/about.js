@@ -1,6 +1,5 @@
-import React from "react"
-import VisibilitySensor from "react-visibility-sensor"
 import SEO from "../components/seo"
+import React from "react"
 import Banner from "../components/Banner"
 import OurStory from "../components/OurStory"
 import HowWeDoIt from "../components/HowWeDoIt"
@@ -12,43 +11,23 @@ import ContactUs from "../components/ContactUs"
 import Layout from "../layout/Layout"
 
 const Index = props => {
-  const section = {
-    who: false,
-    what: false,
-    how: false,
-  }
-  const onChangeWho = isVisable => (section.who = isVisable)
-  const onChangeWhat = isVisable => (section.what = isVisable)
-  const onChangeHow = isVisable => (section.how = isVisable)
-
-  console.log("HELLO Page", section)
   return (
-    <Layout props={props} section={section}>
+    <Layout props={props}>
       <SEO title="G-Science" />
 
       <Banner
         path={props.path}
         title="G-Science"
-        subtitle="Empowering your Gaming through Sport Science &amp; Data Analytics"
+        subtitle="Taking your performance to the next level."
         href="#OurStory"
-        buttonTitle="How we do it"
+        buttonTitle="Read Our Story"
       />
-      <VisibilitySensor onChange={onChangeWho}>
-        <div className="sensor" />
-      </VisibilitySensor>
       <div id="OurStory">
         <OurStory />
       </div>
       <div id="HowWeDoIt">
         <HowWeDoIt />
       </div>
-      <VisibilitySensor onChange={onChangeWhat}>
-        <div className="sensor" />
-      </VisibilitySensor>
-
-      <VisibilitySensor onChange={onChangeHow}>
-        <div className="sensor" />
-      </VisibilitySensor>
       <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>

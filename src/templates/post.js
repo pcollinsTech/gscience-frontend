@@ -18,10 +18,7 @@ export const BlogPostTemplate = ({
         <img src={featured_image} alt={title} style={{ width: "100%" }} />
         <div className="inner">
           <header>
-            <h1
-              className="title is-size-2 has-text-weight-bold is-bold-light blog_title"
-              dangerouslySetInnerHTML={{ __html: title }}
-            />
+            <h1 className="" dangerouslySetInnerHTML={{ __html: title }} />
           </header>
         </div>
       </section>
@@ -85,7 +82,7 @@ const BlogPost = ({ data }) => {
     <Layout>
       <Helmet title={`${post.title} | Blog`} />
       <BlogPostTemplate
-        // featured_image={post.featured_media.source_url}
+        featured_image={post.featured_media.source_url}
         content={post.content}
         categories={post.categories}
         tags={post.tags}

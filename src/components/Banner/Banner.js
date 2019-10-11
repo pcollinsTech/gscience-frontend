@@ -12,7 +12,14 @@ class Banner extends Component {
 
   render() {
     const { title, subtitle, buttonTitle, href } = this.props
-
+    console.log("THIS IS PROPS FOR BANNER", this.props)
+    const button = buttonTitle ? (
+      <button className="btn btn-primary">
+        <a href={href}>{buttonTitle}</a>
+      </button>
+    ) : (
+      ""
+    )
     return (
       <React.Fragment>
         <div id="home">
@@ -43,11 +50,10 @@ class Banner extends Component {
               <div className="hero-title">
                 <h1>{title}</h1>
                 <h3 className="pb-4">{subtitle}</h3>
-                <button className="btn btn-primary">
-                  <a href={href}>{buttonTitle}</a>
-                </button>
+                {button}
               </div>
             </div>
+            <div>How?</div>
           </div>
         </div>
       </React.Fragment>

@@ -1,3 +1,9 @@
+// @include skel-layout(
+//   (
+//     reset: "full",
+//     boxModel: "border",
+//   )
+// );
 //Exolot Theme Files
 @import "libs/vars";
 @import "libs/functions";
@@ -6,6 +12,31 @@
 
 @import "settings";
 
+@include skel-breakpoints(
+  (
+    xlarge: "(max-width: 1680px)",
+    large: "(max-width: 1280px)",
+    medium: "(max-width: 980px)",
+    xmedium: "(max-width: 820px)",
+    small: "(max-width: 736px)",
+    xsmall: "(max-width: 480px)",
+    xxsmall: "(max-width: 360px)",
+  )
+);
+
+// @mixin inner {
+//   > .inner {
+//     @include padding(4em, 0);
+//     margin: 0 auto;
+//     max-width: _size(inner);
+//     width: calc(100% - 6em);
+
+//     @include breakpoint(small) {
+//       @include padding(3em, 0);
+//       width: calc(100% - 3em);
+//     }
+//   }
+// }
 // Layout
 @import "layout/navbar";
 @import "layout/footer";
@@ -41,7 +72,10 @@ a {
 
 .bg-dark {
   background-color: $secondary-color !important;
-  color: white;
+  color: #eee !important;
+  p {
+    color: #eee !important;
+  }
 }
 
 .accordion > .card .card-header {
@@ -61,4 +95,14 @@ a {
   .mobile {
     display: none !important;
   }
+}
+
+.sensor {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 1px;
 }
