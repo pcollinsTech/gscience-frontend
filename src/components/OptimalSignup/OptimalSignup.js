@@ -173,7 +173,7 @@ OptimalSignup.PropsTypes = {
   linkedinlink: PropTypes.string,
 }
 OptimalSignup.defaultProps = {
-  sectionTitle: "Sign Up",
+  sectionTitle: "Sign Up Now for Free Trial",
   sectionTitleSpan: "Us",
   sectionContent:
     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",

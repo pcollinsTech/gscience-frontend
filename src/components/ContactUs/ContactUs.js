@@ -30,11 +30,11 @@ export class ContactUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="contact" className="contact-area ptb-100">
+        <section id="contact" className="contact-area ptb-100 bg-dark">
           <div className="container">
             <div className="section-title">
               <h2>
-                {this.props.sectionTitle} <b>{this.props.sectionTitleSpan}</b>
+                {this.props.sectionTitle} {this.props.sectionTitleSpan}
               </h2>
             </div>
             <div className="row">

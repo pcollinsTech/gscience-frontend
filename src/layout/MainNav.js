@@ -56,7 +56,7 @@ class NavBar extends Component {
               />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  <Nav.Item>
+                  {/* <Nav.Item>
                     <Link
                       to="#HowWeDoIt"
                       offset={-70}
@@ -65,7 +65,7 @@ class NavBar extends Component {
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      How We Do It
+                      What We Do
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
@@ -77,9 +77,9 @@ class NavBar extends Component {
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      Who We Are
+                      How We Do It
                     </Link>
-                  </Nav.Item>
+                  </Nav.Item> */}
                   <Nav.Item>
                     <Link
                       to="#WhatWeProvide"
@@ -89,7 +89,7 @@ class NavBar extends Component {
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      What We Provide
+                      Services
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
@@ -106,7 +106,7 @@ class NavBar extends Component {
                   </Nav.Item>
                   <Nav.Item>
                     <Link
-                      to="/blog"
+                      to="/resources"
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"

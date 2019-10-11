@@ -1,11 +1,13 @@
 import React from "react"
 import VisibilitySensor from "react-visibility-sensor"
+import { graphql } from "gatsby"
+
 import SEO from "../components/seo"
 import Banner from "../components/Banner"
 import OurStory from "../components/OurStory"
-import HowWeDoIt from "../components/HowWeDoIt"
+import Services from "../components/Services"
 import WorkWith from "../components/WorkWith"
-import MeetTheTeam from "../components/MeetTheTeam"
+import OnTheBlog from "../components/OnTheBlog"
 import Optimal from "../components/Optimal"
 import WhatWeProvide from "../components/WhatWeProvide"
 import ContactUs from "../components/ContactUs"
@@ -31,7 +33,7 @@ const Index = props => {
         title="G-Science"
         subtitle="Empowering Esports Performance through Sport Science &amp; Data Analytics"
         href="#OurStory"
-        buttonTitle="How we do it"
+        buttonTitle="Enquire Now"
       />
       <VisibilitySensor onChange={onChangeWho}>
         <div className="sensor" />
@@ -39,8 +41,14 @@ const Index = props => {
       <div id="OurStory">
         <OurStory />
       </div>
-      <div id="HowWeDoIt">
-        <HowWeDoIt />
+      <div id="WhatWeProvide">
+        <WhatWeProvide />
+      </div>
+      {/* <h1 className="text-center">GRAPHIC HERE</h1> */}
+      {/* <hr style={{ width: "40%" }} /> */}
+
+      <div id="Services">
+        <Services />
       </div>
       <VisibilitySensor onChange={onChangeWhat}>
         <div className="sensor" />
@@ -49,23 +57,38 @@ const Index = props => {
       <VisibilitySensor onChange={onChangeHow}>
         <div className="sensor" />
       </VisibilitySensor>
-      <div id="WhatWeProvide">
-        <WhatWeProvide />
-      </div>
 
       <div id="Optimal">
         <Optimal />
       </div>
 
-      <div id="MeetTheTeam" className="bg-dark">
-        <MeetTheTeam />
-      </div>
+      <h1></h1>
+      <OnTheBlog posts={props.data.allWordpressPost.edges} />
+      <ContactUs />
       <div id="WorkWith">
         <WorkWith />
       </div>
-      <ContactUs />
     </Layout>
   )
 }
 
 export default Index
+
+export const pageQuery = graphql`
+  query {
+    allWordpressPost(limit: 3) {
+      edges {
+        node {
+          date(formatString: "DD / MMMM / YYYY")
+          slug
+          title
+          wordpress_id
+          excerpt
+          featured_media {
+            source_url
+          }
+        }
+      }
+    }
+  }
+`

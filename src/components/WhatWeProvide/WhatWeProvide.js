@@ -10,7 +10,9 @@ const WhatWeProvide = () => {
   return (
     <React.Fragment>
       <div className=" py-5">
-        <div className="what_we_provide">
+        <div className="what_we_provide ">
+          <h3 className="text-center">How We Do It</h3>
+          <br />
           <div className="row">
             <div className="col-sm-5">
               <h4 className="pb-5 ">Sport Science</h4>

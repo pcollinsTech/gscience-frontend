@@ -2,7 +2,7 @@ import SEO from "../components/seo"
 import React from "react"
 import Banner from "../components/Banner"
 import OurStory from "../components/OurStory"
-import HowWeDoIt from "../components/HowWeDoIt"
+import Services from "../components/Services"
 import WorkWith from "../components/WorkWith"
 import MeetTheTeam from "../components/MeetTheTeam"
 import Optimal from "../components/Optimal"
@@ -25,8 +25,8 @@ const Index = props => {
       <div id="OurStory">
         <OurStory />
       </div>
-      <div id="HowWeDoIt">
-        <HowWeDoIt />
+      <div id="Services">
+        <Services />
       </div>
       <div id="WhatWeProvide">
         <WhatWeProvide />
