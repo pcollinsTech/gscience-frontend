@@ -29,7 +29,7 @@ const Index = props => {
       <Banner
         path={props.path}
         title="G-Science"
-        subtitle="Empowering your Gaming through Sport Science &amp; Data Analytics"
+        subtitle="Empowering Esports Performance through Sport Science &amp; Data Analytics"
         href="#OurStory"
         buttonTitle="How we do it"
       />

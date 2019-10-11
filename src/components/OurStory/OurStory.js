@@ -60,8 +60,8 @@ const OurStory = () => {
       </section>
       <hr style={{ width: "40%" }} />
 
-      <h1 className="text-center">GRAPHIC INSERTED HERE</h1>
-      <hr style={{ width: "40%" }} />
+      {/* <h1 className="text-center">GRAPHIC INSERTED HERE</h1> */}
+      {/* <hr style={{ width: "40%" }} /> */}
       <div className="bg-dark  py-5">
         <div className="container text-center">
           <br />
