@@ -6,13 +6,13 @@ const OurStory = () => {
       <section className="welcome-area py-5">
         <div className="container text-center">
           <h3 className="pb-5">What We Do</h3>
-          <div className="row section-title">
+          {/* <div className="row section-title">
             <p>
               "There's a darker side to esports, the average player's career is
-              2-3years. Theyre burnging out and Ue to a lack of education,
-              atheletes are being pished harder and harder."
+              2-3years. They're burnging out and due to a lack of education
+              atheletes are being pushed harder and harder to the"
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="container">
           <div className="row pt-5">
