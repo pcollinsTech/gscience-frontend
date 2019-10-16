@@ -12,7 +12,6 @@ class Banner extends Component {
 
   render() {
     const { title, subtitle, buttonTitle, href } = this.props
-    console.log("THIS IS PROPS FOR BANNER", this.props)
     const button = buttonTitle ? (
       <button className="btn btn-primary">
         <a href={href}>{buttonTitle}</a>

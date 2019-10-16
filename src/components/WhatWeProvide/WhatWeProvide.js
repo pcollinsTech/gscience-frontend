@@ -3,9 +3,7 @@ import { Card, Accordion } from "react-bootstrap"
 import { FaPlusCircle } from "react-icons/fa"
 
 const WhatWeProvide = () => {
-  const accordianClick = e => {
-    console.log("Clicked", e)
-  }
+  const accordianClick = e => {}
 
   return (
     <React.Fragment>

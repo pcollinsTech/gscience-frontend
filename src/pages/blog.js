@@ -6,7 +6,6 @@ import BlogCard from "../components/BlogCard"
 
 class Blog extends React.Component {
   render() {
-    console.log("BLOG PAGE PROPS", this.props)
     return (
       <Layout>
         <SEO title="G-Science | Blog" />
