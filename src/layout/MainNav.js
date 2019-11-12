@@ -38,7 +38,7 @@ class NavBar extends Component {
       <div className="nav-wrapper">
         <Container>
           <Row>
-            <Navbar
+            {/* <Navbar
               sticky="top"
               id="navbar"
               expand="lg"
@@ -79,7 +79,7 @@ class NavBar extends Component {
                     >
                       How We Do It
                     </Link>
-                  </Nav.Item> */}
+                  </Nav.Item>
                   <Nav.Item>
                     <Link
                       to="#WhatWeProvide"
@@ -126,12 +126,12 @@ class NavBar extends Component {
                   </Nav.Item>
 
                   <Nav.Item>
-                    {/* SideNav: src/components/SideNav */}
+                    {/* SideNav: src/components/SideNav 
                     <SideNav />
                   </Nav.Item>
                 </Nav>
               </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
           </Row>
         </Container>
       </div>

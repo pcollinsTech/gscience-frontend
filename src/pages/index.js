@@ -31,20 +31,18 @@ const Index = props => {
         path={props.path}
         title="G-Science"
         subtitle="Empowering Esports Performance through Sport Science &amp; Data Analytics"
-        href="#OurStory"
-        buttonTitle="Enquire Now"
+        href="#contact"
+        buttonTitle="Contact Us"
       />
       <VisibilitySensor onChange={onChangeWho}>
         <div className="sensor" />
       </VisibilitySensor>
-      <div id="OurStory">
+      {/* <div id="OurStory">
         <OurStory />
       </div>
       <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>
-      {/* <h1 className="text-center">GRAPHIC HERE</h1> */}
-      {/* <hr style={{ width: "40%" }} /> */}
 
       <div id="Services">
         <Services />
@@ -62,11 +60,11 @@ const Index = props => {
       </div>
 
       <h1></h1>
-      <OnTheBlog posts={props.data.allWordpressPost.edges} />
+      <OnTheBlog posts={props.data.allWordpressPost.edges} /> */}
       <ContactUs />
-      <div id="WorkWith">
+      {/* <div id="WorkWith">
         <WorkWith />
-      </div>
+      </div> */}
     </Layout>
   )
 }
