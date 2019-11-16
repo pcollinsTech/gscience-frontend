@@ -52,7 +52,6 @@ class Banner extends Component {
                 {button}
               </div>
             </div>
-            <div>How?</div>
           </div>
         </div>
       </React.Fragment>
