@@ -52,28 +52,40 @@ const WhatWeDo = () => {
             </div>
           </div>
           <div className="col-xs-5ths wwd_item">
-            <h5>Reduce Injuries</h5>
+            <h5>
+              Reduce
+              <br /> Injuries
+            </h5>
             <p>Insert Text Here</p>
             <div className="wwd_circle">
               <img src={wwd2} alt="" />
             </div>
           </div>
           <div className="col-xs-5ths wwd_item">
-            <h5>Faster Recovery</h5>
+            <h5>
+              Faster
+              <br /> Recovery
+            </h5>
             <p>Insert Text Here</p>
             <div className="wwd_circle">
               <img src={wwd3} alt="" />
             </div>
           </div>
           <div className="col-xs-5ths wwd_item">
-            <h5>Eliminate Burnout</h5>
+            <h5>
+              Eliminate
+              <br /> Burnout
+            </h5>
             <p>Insert Text Here</p>
             <div className="wwd_circle">
               <img src={wwd4} alt="" />
             </div>
           </div>
           <div className="col-xs-5ths wwd_item">
-            <h5>Prolong Careers</h5>
+            <h5>
+              Prolong
+              <br /> Careers
+            </h5>
             <p>Insert Text Here</p>
             <div className="wwd_circle">
               <img src={wwd5} alt="" />
