@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import Banner from "../components/Banner"
-import OurStory from "../components/OurStory"
+import WhatWeDo from "../components/WhatWeDo"
 import Services from "../components/Services"
 import WorkWith from "../components/WorkWith"
 import OnTheBlog from "../components/OnTheBlog"
@@ -37,10 +37,10 @@ const Index = props => {
       <VisibilitySensor onChange={onChangeWho}>
         <div className="sensor" />
       </VisibilitySensor>
-      {/* <div id="OurStory">
-        <OurStory />
+      <div id="WhatWeDo">
+        <WhatWeDo />
       </div>
-      <div id="WhatWeProvide">
+      {/* <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>
 

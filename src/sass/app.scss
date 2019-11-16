@@ -46,6 +46,7 @@
 @import "components/ourStory";
 @import "components/meetTheTeam";
 @import "components/whatWeProvide";
+@import "components/whatWeDo";
 @import "components/blogCard";
 @import "components/pagination";
 @import "components/postList";
@@ -107,4 +108,19 @@ a {
   left: 0;
   right: 0;
   height: 1px;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
 }

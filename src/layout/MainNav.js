@@ -38,100 +38,53 @@ class NavBar extends Component {
       <div className="nav-wrapper">
         <Container>
           <Row>
-            {/* <Navbar
-              sticky="top"
-              id="navbar"
-              expand="lg"
-              className="navbar navbar-expand-lg "
-              collapseOnSelect={true}
-            >
+            <Navbar sticky="top" id="navbar" expand="lg" className="navbar navbar-expand-lg " collapseOnSelect={true}>
               <Navbar.Brand>
                 <Link to="/">
                   <img src={logo} alt="logo" />
                 </Link>
               </Navbar.Brand>
-              <Navbar.Toggle
-                aria-controls="basic-navbar-nav"
-                id="collaspe-btn"
-              />
+              <Navbar.Toggle aria-controls="basic-navbar-nav" id="collaspe-btn" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  {/* <Nav.Item>
-                    <Link
-                      to="#HowWeDoIt"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                  <Nav.Item>
+                    <Link to="#HowWeDoIt" offset={-70} duration={800} className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       What We Do
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link
-                      to="#OurStory"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                    <Link to="#OurStory" offset={-70} duration={800} className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       How We Do It
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link
-                      to="#WhatWeProvide"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                    <Link to="#WhatWeProvide" offset={-70} duration={800} className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       Services
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link
-                      to="/optimal"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                    <Link to="/optimal" offset={-70} duration={800} className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       Optimal
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link
-                      to="/resources"
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                    <Link to="/resources" className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       Resources
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link
-                      to="/blog"
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
+                    <Link to="/blog" className="nav-link" onClick={this.closeNavbar} activeClassName="active">
                       News
                     </Link>
                   </Nav.Item>
 
                   <Nav.Item>
-                    {/* SideNav: src/components/SideNav 
+                    {/* SideNav: src/components/SideNav */}
                     <SideNav />
                   </Nav.Item>
                 </Nav>
               </Navbar.Collapse>
-            </Navbar> */}
+            </Navbar>
           </Row>
         </Container>
       </div>

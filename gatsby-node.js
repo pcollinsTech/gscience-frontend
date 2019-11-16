@@ -7,8 +7,7 @@ const _ = require("lodash")
 const path = require("path")
 const { paginate } = require("gatsby-awesome-pagination")
 // You can delete this file if you're not using it
-const getOnlyPublished = edges =>
-  _.filter(edges, ({ node }) => node.status === "publish")
+const getOnlyPublished = edges => _.filter(edges, ({ node }) => node.status === "publish")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -37,10 +36,7 @@ exports.createPages = ({ actions, graphql }) => {
 
       // In production builds, filter for only published posts.
       const allPosts = result.data.allWordpressPost.edges
-      const posts =
-        process.env.NODE_ENV === "production"
-          ? getOnlyPublished(allPosts)
-          : allPosts
+      const posts = process.env.NODE_ENV === "production" ? getOnlyPublished(allPosts) : allPosts
 
       // Iterate over the array of posts
       _.each(posts, ({ node: post }) => {

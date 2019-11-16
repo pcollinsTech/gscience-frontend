@@ -3,7 +3,7 @@ import SEO from "../components/seo"
 import Layout from "../layout/Layout"
 import Banner from "../components/Banner"
 import BlogCard from "../components/BlogCard"
-
+import { graphql } from "gatsby"
 class Blog extends React.Component {
   render() {
     return (

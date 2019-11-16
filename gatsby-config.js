@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        baseUrl: "eprotrainer.com",
-        protocol: "https",
+        baseUrl: "http://api.gscience.io/",
+        protocol: "http",
         // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
         // This feature is untested for sites hosted on wordpress.com.
         // Defaults to true.
