@@ -26,7 +26,6 @@ const Index = props => {
   return (
     <Layout props={props} section={section}>
       <SEO title="G-Science" />
-
       <Banner
         path={props.path}
         title="G-Science"
@@ -54,11 +53,11 @@ const Index = props => {
       <VisibilitySensor onChange={onChangeHow}>
         <div className="sensor" />
       </VisibilitySensor>
-
+*/}
       <div id="Optimal">
         <Optimal />
       </div>
-
+      {/*
       <h1></h1>
       <OnTheBlog posts={props.data.allWordpressPost.edges} /> */}
       <ContactUs />
