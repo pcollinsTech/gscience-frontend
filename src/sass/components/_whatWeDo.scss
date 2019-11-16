@@ -5,13 +5,10 @@
 }
 
 .wwd_item {
-  position: relative;
   padding: 0 15px;
 }
 
 .wwd_circle {
-  position: absolute;
-  bottom: 0;
   border: solid 2px $primary-color;
   border-radius: 50%;
   img {
