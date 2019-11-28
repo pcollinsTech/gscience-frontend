@@ -36,9 +36,9 @@ const Index = props => {
       <VisibilitySensor onChange={onChangeWho}>
         <div className="sensor" />
       </VisibilitySensor>
-      <div id="WhatWeDo">
+      {/* <div id="WhatWeDo">
         <WhatWeDo />
-      </div>
+      </div> */}
       {/* <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>
