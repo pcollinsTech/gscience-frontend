@@ -36,24 +36,17 @@ const Index = props => {
       <VisibilitySensor onChange={onChangeWho}>
         <div className="sensor" />
       </VisibilitySensor>
-      {/* <div id="WhatWeDo">
+      <div id="WhatWeDo">
         <WhatWeDo />
-      </div> */}
-      {/* <div id="WhatWeProvide">
+      </div>
+      <div id="WhatWeProvide">
         <WhatWeProvide />
       </div>
 
       <div id="Services">
         <Services />
       </div>
-      <VisibilitySensor onChange={onChangeWhat}>
-        <div className="sensor" />
-      </VisibilitySensor>
 
-      <VisibilitySensor onChange={onChangeHow}>
-        <div className="sensor" />
-      </VisibilitySensor>
-*/}
       <div id="Optimal">
         <Optimal />
       </div>
