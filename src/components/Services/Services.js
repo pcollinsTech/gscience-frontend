@@ -1,7 +1,7 @@
 import React from "react"
 import tuition from "../../img/1on1.png"
 import bootcamp from "../../img/bootcamp.png"
-// import competition from "../../img/competition-support.png"
+import competition from "../../img/competition-support.png"
 const Services = () => {
   return (
     <React.Fragment>
@@ -31,7 +31,7 @@ const Services = () => {
               <button class="btn btn-primary text-center"> Learn more</button>
             </div>
             <div className="col-sm-4 ">
-              {/* <img src={competition} alt="" /> */}
+              <img src={competition} alt="" />
               <h3>Competition Support</h3>
               <p>
                 Full access to our multidisciplinary team throughout your

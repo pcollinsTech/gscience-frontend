@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Container, Row } from "react-bootstrap"
 import wwd1 from "../../img/optimise.png"
 import wwd2 from "../../img/injuries.png"
@@ -13,13 +13,10 @@ const WhatWeDo = () => {
         <h2>What We Do</h2>
         <Row className="pt-4">
           <div className="col-md-4">
-            <h3 className="green">
-              Creating healthier, happier and more successful gamers.
-            </h3>
+            <h3 className="green">Creating healthier, happier and more successful gamers.</h3>
             <p>
-              We combine sports science, data analytics and cutting edge
-              technology to provide personalised insights into optimal training
-              load, readiness to perform and risk of injury
+              We combine sports science, data analytics and cutting edge technology to provide personalised insights into optimal training load,
+              readiness to perform and risk of injury
             </p>
           </div>
           <div className="col-md-4 wwd_stat">

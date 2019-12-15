@@ -102,7 +102,7 @@ BlogPost.propTypes = {
 
 export default BlogPost
 
-export const BlogPageQuery = graphql`
+export const pageQuery = graphql`
   fragment PostFields on wordpress__POST {
     id
     slug

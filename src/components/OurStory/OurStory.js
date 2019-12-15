@@ -29,7 +29,7 @@ const OurStory = () => {
               </p>
             </div>
             <div className="col-sm-5 pl-5">
-              {/* <div className="d-flex justify-content-between py-2">
+              <div className="d-flex justify-content-between py-2">
                 <h4>Optimise Performance</h4>
                 <img
                   src="https://nourishcare.co.uk/wp-content/themes/nourish-website-theme/images/green_tick.svg"
@@ -63,7 +63,7 @@ const OurStory = () => {
                   src="https://nourishcare.co.uk/wp-content/themes/nourish-website-theme/images/green_tick.svg"
                   className="check-icon"
                 />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

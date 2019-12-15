@@ -8,7 +8,7 @@
 }
 
 .overlay-hero:before {
-  // background: url(../img/shape-hero.svg);
+  background: url(../img/shape-hero.svg);
   background-position: center;
 }
 
@@ -29,19 +29,5 @@
   z-index: 10;
   h1 {
     font-size: 6rem;
-  }
-}
-
-.hero-title_caroursel {
-  margin-top: 40px;
-}
-
-.carousel-indicators {
-  display: none;
-}
-
-.banner_image {
-  img {
-    min-width: 100%;
   }
 }

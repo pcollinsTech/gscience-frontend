@@ -6,9 +6,11 @@ import {
   FaMapSigns,
   FaPhone,
   FaEnvelope,
+  FaFacebookF,
   FaInstagram,
   FaTwitter,
   FaLinkedinIn,
+  FaPinterest,
 } from "react-icons/fa"
 
 export class SideNav extends Component {
@@ -84,6 +86,11 @@ export class SideNav extends Component {
 
             <ul className="social-links">
               <li>
+                <a href={this.props.facebooklink} target="__blank">
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
                 <a href={this.props.twitterlink} target="__blank">
                   <FaTwitter />
                 </a>
@@ -96,6 +103,11 @@ export class SideNav extends Component {
               <li>
                 <a href={this.props.linkedinlink} target="__blank">
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li>
+                <a href={this.props.pinterestlink} target="__blank">
+                  <FaPinterest />
                 </a>
               </li>
             </ul>
@@ -199,10 +211,12 @@ SideNav.defaultProps = {
   locationnormal: "Northern Ireland",
   phonebolt: "07881092136",
   phonenormal: "Give us a call",
-  mailbolot: "ryan@gscience.io",
+  mailbolot: "info@gscience.gg",
   mailnormal: "Online support & enquiries",
+  facebooklink: "#",
   twitterlink: "https://twitter.com/gscienceio",
-  instagramlink: "https://www.instagram.com/gscience.io/",
-  linkedinlink: "https://www.linkedin.com/company/gscience/",
+  instagramlink: "#",
+  linkedinlink: "#",
+  pinterestlink: "#",
 }
 export default SideNav

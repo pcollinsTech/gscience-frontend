@@ -1,6 +1,6 @@
 import React from "react"
-import ryan from "../../img/Team/ryan.png"
-import jamie from "../../img/Team/jamie.jpg"
+import ryan from "../../img/Team/ryan.jpg"
+import jamie from "../../img/Team/jamie.png"
 
 export default function MeetTheTeam() {
   return (

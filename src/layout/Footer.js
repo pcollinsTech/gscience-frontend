@@ -44,8 +44,5 @@ Footer.defaultProps = {
   footercopyrightText1: "Terms & Conditions ",
   footercopyrightLink2: "#",
   footercopyrightText2: "Privacy Policy",
-  twitterlink: "https://twitter.com/gscienceio",
-  instagramlink: "https://www.instagram.com/gscience.io/",
-  linkedinlink: "https://www.linkedin.com/company/gscience/",
 }
 export default Footer
