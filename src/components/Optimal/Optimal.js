@@ -7,10 +7,10 @@ const Optimal = () => {
       <div className="bg-dark py-5">
         <div className="container text-center">
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-md-6">
               <img src={coach_dashboard} alt="" />
             </div>
-            <div className="col-sm-6">
+            <div className="col-md-6">
               <h2 className="">
                 Optimal – Esports first athlete monitoring system
               </h2>

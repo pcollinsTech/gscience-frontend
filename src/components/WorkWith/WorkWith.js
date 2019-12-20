@@ -24,7 +24,7 @@ export default function WorkWith() {
           <h2 className=" pb-4">Our Partners</h2>
           <div className="row">
             <div className="col-sm-6">
-              <a href="" target="__blank">
+              <a href="https://discord.gg/hpAVJzd" target="__blank">
                 <img
                   src={clash}
                   alt="clashzone"

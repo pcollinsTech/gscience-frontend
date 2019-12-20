@@ -11,7 +11,7 @@ class Banner extends Component {
   }
 
   render() {
-    const { title, subtitle, buttonTitle, href } = this.props
+    const { title, subtitle, buttonTitle, href, path, subsubtitle } = this.props
     const button = buttonTitle ? (
       <button className="btn btn-primary">
         <a href={href}>{buttonTitle}</a>
@@ -20,7 +20,7 @@ class Banner extends Component {
       ""
     )
     const banner =
-      this.props.path === "/about/" ? (
+      path === "/about/" ? (
         <img src={team} />
       ) : (
         <Particles
@@ -55,6 +55,7 @@ class Banner extends Component {
               <div className="hero-title">
                 <h1>{title}</h1>
                 <h3 className="pb-4">{subtitle}</h3>
+                <h3 className="pb-4">{subsubtitle}</h3>
                 {button}
               </div>
             </div>

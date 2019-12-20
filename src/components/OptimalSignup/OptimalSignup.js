@@ -143,7 +143,7 @@ export class OptimalSignup extends Component {
 
                     <div className="col-lg-12 col-md-12 col-sm-12">
                       <button type="submit" className="btn btn-primary">
-                        Send Message
+                        Sign Up
                       </button>
                       <div id="msgSubmit" className="h3 text-center hidden" />
                       <div className="clearfix" />
