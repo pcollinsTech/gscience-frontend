@@ -74,7 +74,7 @@ a {
 }
 
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: _palette(bg-alt) !important;
   color: #eee !important;
   p {
     color: #eee !important;

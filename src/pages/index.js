@@ -22,7 +22,6 @@ const Index = props => {
     how: false,
   }
   const onChangeWho = isVisable => (section.who = isVisable)
-  console.log("props", props)
   return (
     <Layout props={props} section={section}>
       <SEO title="G-Science" />
