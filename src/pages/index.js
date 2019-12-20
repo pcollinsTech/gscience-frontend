@@ -1,8 +1,8 @@
 import React from "react"
 import VisibilitySensor from "react-visibility-sensor"
-
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
-import WhatWeDo from "../components/WhatWeDo"
+import WorkWith from "../components/WorkWith"
 import Services from "../components/Services"
 import Optimal from "../components/Optimal"
 import WhatWeProvide from "../components/WhatWeProvide"
@@ -14,6 +14,8 @@ import bannerImgOne from "../img/Banners/bannerImgeOne.png"
 import bannerImgTwo from "../img/Banners/bannerImgeTwo.jpg"
 import bannerImgThree from "../img/Banners/bannerImgeThree.jpg"
 import bannerImgFour from "../img/Banners/bannerImgeFour.png"
+import OnTheBlog from "../components/OnTheBlog/OnTheBlog"
+import SignUp from "../components/SignUp/SignUp"
 
 const Index = props => {
   const section = {
@@ -22,7 +24,7 @@ const Index = props => {
     how: false,
   }
   const onChangeWho = isVisable => (section.who = isVisable)
-
+  console.log("props", props)
   return (
     <Layout props={props} section={section}>
       <SEO title="G-Science" />
@@ -51,19 +53,35 @@ const Index = props => {
       <div id="Optimal">
         <Optimal />
       </div>
+      <div id="Blog">
+        <OnTheBlog posts={props.data.allWordpressPost.edges} />
+      </div>
       <div id="WhatWeDo">
-        <WhatWeDo />
-      </div>
-      <div id="WhatWeProvide">
-        <WhatWeProvide />
-      </div>
-
-      <div id="Services">
-        <Services />
+        <WorkWith />
       </div>
       <ContactUs />
+      <SignUp />
     </Layout>
   )
 }
 
 export default Index
+
+export const indexPage = graphql`
+  query {
+    allWordpressPost(limit: 3) {
+      edges {
+        node {
+          date(formatString: "DD / MMMM / YYYY")
+          slug
+          title
+          wordpress_id
+          excerpt
+          featured_media {
+            source_url
+          }
+        }
+      }
+    }
+  }
+`

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-
+import { FaTwitter, FaInstagram, FaLinkedinIn, FaDiscord } from "react-icons/fa"
+import logo from "../img/logopng.png"
 export class Footer extends Component {
   render() {
     return (
@@ -8,22 +9,59 @@ export class Footer extends Component {
         <footer className="footer-area">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-6">
+              <div className="col-lg-5 col-md-5">
+                <img src={logo} alt="" style={{ maxWidth: "150px" }} />
                 <p>
                   {this.props.copyrightText} {new Date().getFullYear()}.
                 </p>
+                <span>
+                  Built by{" "}
+                  <a href="https://pcollins.tech" target="__blank">
+                    Phil
+                  </a>
+                </span>
               </div>
-
-              {/* <div className="col-lg-6 col-md-6">
-                                <ul>
-                                    <li>
-                                        <a href={this.props.footercopyrightLink1}>{this.props.footercopyrightText1}</a>
-                                    </li>
-                                    <li>
-                                        <a href={this.props.footercopyrightLink2}>{this.props.footercopyrightText2}</a>
-                                    </li>
-                                </ul>
-                            </div> */}
+              <div className="col-sm-2">
+                <h5>Site Map</h5>
+                <ul>
+                  <li>About</li>
+                  <li>Optimal</li>
+                  <li>Contact</li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="col-sm-2">
+                <h5>Legal</h5>
+                <ul>
+                  <li>Ts & Cs</li>
+                  <li>Privacy Policy</li>
+                </ul>
+              </div>
+              <div className="col-sm-3">
+                <h5>Let's Connect</h5>
+                <ul>
+                  <li>
+                    <a href={this.props.twitterlink} target="__blank">
+                      <FaTwitter /> - Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href={this.props.instagramlink} target="__blank">
+                      <FaInstagram /> - Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a href={this.props.linkedinlink} target="__blank">
+                      <FaLinkedinIn /> - Linked In
+                    </a>
+                  </li>
+                  <li>
+                    <a href={this.props.discordlink} target="__blank">
+                      <FaDiscord /> - Discord
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </footer>
@@ -47,5 +85,6 @@ Footer.defaultProps = {
   twitterlink: "https://twitter.com/gscienceio",
   instagramlink: "https://www.instagram.com/gscience.io/",
   linkedinlink: "https://www.linkedin.com/company/gscience/",
+  discordlink: "https://www.linkedin.com/company/gscience/",
 }
 export default Footer

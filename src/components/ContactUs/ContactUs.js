@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { ValidationForm, TextInput } from "react-bootstrap4-form-validation"
 import PropTypes from "prop-types"
 import {
-  FaFacebookF,
+  FaDiscord,
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
@@ -30,7 +30,7 @@ export class ContactUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="contact" className="contact-area ptb-100 bg-dark">
+        <section id="contact" className="contact-area ptb-100">
           <div className="container">
             <div className="section-title">
               <h2>
@@ -45,8 +45,7 @@ export class ContactUs extends Component {
                   </div>
                   <h4>Address</h4>
                   <p>
-                    <b>18 Ormeau Avenue</b>
-                    Belfast, Northern Ireland BT2 8HS
+                    <b>18 Ormeau Avenue, </b>Belfast, Northern Ireland BT2 8HS
                   </p>
                 </div>
               </div>{" "}
@@ -74,23 +73,23 @@ export class ContactUs extends Component {
                   <p>{this.props.content}</p>
                   <ul>
                     <li>
-                      <a href={this.props.fblink}>
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.twitterlink}>
+                      <a href={this.props.twitterlink} target="__blank">
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.instagramlink}>
+                      <a href={this.props.instagramlink} target="__blank">
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.linkedinlink}>
+                      <a href={this.props.linkedinlink} target="__blank">
                         <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li>
+                      <a href={this.props.discordlink} target="__blank">
+                        <FaDiscord />
                       </a>
                     </li>
                   </ul>
@@ -198,9 +197,10 @@ ContactUs.defaultProps = {
   title: "Get in Touch",
   content: "If you want to find out more about the services we provide ",
   fblink: "#",
-  twitterlink: "#",
-  instagramlink: "#",
-  linkedinlink: "#",
+  twitterlink: "https://twitter.com/gscienceio",
+  instagramlink: "https://www.instagram.com/gscience.io/",
+  discordlink: "https://www.instagram.com/gscience.io/",
+  linkedinlink: "https://www.linkedin.com/company/gscience/",
   contactussData: [
     {
       boxicon: "fas fa-map-pin",

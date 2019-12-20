@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Particles from "react-particles-js"
-
+import team from "../../img/Team/team.jpg"
 class Banner extends Component {
   constructor(props) {
     super(props)
@@ -19,32 +19,38 @@ class Banner extends Component {
     ) : (
       ""
     )
+    const banner =
+      this.props.path === "/about/" ? (
+        <img src={team} />
+      ) : (
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 150,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+        />
+      )
     return (
       <React.Fragment>
         <div id="home">
           <div className="main-banner bg-image-hero overlay-hero">
             <div className="d-table">
               <div className="d-table-cell particles-container mobile">
-                <Particles
-                  params={{
-                    particles: {
-                      number: {
-                        value: 150,
-                      },
-                      size: {
-                        value: 3,
-                      },
-                    },
-                    interactivity: {
-                      events: {
-                        onhover: {
-                          enable: true,
-                          mode: "repulse",
-                        },
-                      },
-                    },
-                  }}
-                />
+                {banner}
               </div>
               <div className="hero-title">
                 <h1>{title}</h1>

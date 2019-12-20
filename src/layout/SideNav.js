@@ -4,6 +4,7 @@ import { ValidationForm, TextInput } from "react-bootstrap4-form-validation"
 import PropTypes from "prop-types"
 import {
   FaMapSigns,
+  FaDiscord,
   FaPhone,
   FaEnvelope,
   FaInstagram,
@@ -96,6 +97,11 @@ export class SideNav extends Component {
               <li>
                 <a href={this.props.linkedinlink} target="__blank">
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li>
+                <a href={this.props.discordlink} target="__blank">
+                  <FaDiscord />
                 </a>
               </li>
             </ul>
@@ -204,5 +210,6 @@ SideNav.defaultProps = {
   twitterlink: "https://twitter.com/gscienceio",
   instagramlink: "https://www.instagram.com/gscience.io/",
   linkedinlink: "https://www.linkedin.com/company/gscience/",
+  discordlink: "https://www.linkedin.com/company/gscience/",
 }
 export default SideNav

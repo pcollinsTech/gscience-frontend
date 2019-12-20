@@ -56,45 +56,27 @@ class NavBar extends Component {
                 <Nav className="ml-auto">
                   <Nav.Item>
                     <Link
-                      to="#HowWeDoIt"
-                      offset={-70}
-                      duration={800}
+                      to="/"
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      What We Do
+                      Home
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Link
-                      to="#OurStory"
-                      offset={-70}
-                      duration={800}
+                      to="/about"
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"
                     >
-                      How We Do It
-                    </Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Link
-                      to="#WhatWeProvide"
-                      offset={-70}
-                      duration={800}
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
-                      Services
+                      About
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Link
                       to="/optimal"
-                      offset={-70}
-                      duration={800}
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"
@@ -104,17 +86,7 @@ class NavBar extends Component {
                   </Nav.Item>
                   <Nav.Item>
                     <Link
-                      to="/resources"
-                      className="nav-link"
-                      onClick={this.closeNavbar}
-                      activeClassName="active"
-                    >
-                      Resources
-                    </Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Link
-                      to="/blog"
+                      to="/news"
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"
