@@ -10,9 +10,7 @@ const WhatWeDo = () => {
   return (
     <div className="py-5">
       <Container>
-        <h2>What We Do</h2>
-
-        <Row className="text-center pt-5">
+        <Row className="text-center ">
           <div className="col-xs-5ths wwd_item">
             <h5>Optimize Performance</h5>
             <div className="wwd_circle">

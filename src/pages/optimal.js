@@ -46,9 +46,8 @@ const OptimalPage = props => {
       </section>
       <div className="container text-center">
         <h3>Combining data science and sports science.</h3>
-        <div className="row"></div>
       </div>
-      <div className="container text-center">
+      <div className="container py-5 text-center">
         <h3>The Benefits of using Optimal</h3>
         <div className="row">
           <WhatWeDo />

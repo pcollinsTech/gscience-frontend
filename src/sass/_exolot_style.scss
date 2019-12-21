@@ -1625,7 +1625,7 @@ Footer Area CSS
 }
 .footer-area {
   padding: 30px 0;
-  background: #000000;
+  background: _palette(bg-alt) !important;
   h5 {
     color: white;
   }

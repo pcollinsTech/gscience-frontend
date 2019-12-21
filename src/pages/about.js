@@ -9,7 +9,6 @@ import SignUp from "../components/SignUp"
 import Layout from "../layout/Layout"
 
 const Index = props => {
-  console.log(props)
   return (
     <Layout props={props}>
       <SEO title="G-Science" />

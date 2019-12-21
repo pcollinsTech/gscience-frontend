@@ -175,11 +175,9 @@ OptimalSignup.PropsTypes = {
 OptimalSignup.defaultProps = {
   sectionTitle: "Sign Up Now for Free Trial",
   sectionTitleSpan: "Us",
-  sectionContent:
-    "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  sectionContent: "",
   title: "Get in Touch",
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  content: "",
   fblink: "#",
   twitterlink: "#",
   instagramlink: "#",
