@@ -1,6 +1,5 @@
 import React from "react"
 import nuclear from "../../img/nuclear_storm.png"
-import investni from "../../img/investni.png"
 import ignite from "../../img/ignite.jpg"
 import clash from "../../img/clashzone.jpg"
 

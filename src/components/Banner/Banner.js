@@ -21,7 +21,7 @@ class Banner extends Component {
     )
     const banner =
       path === "/about/" ? (
-        <img src={team} />
+        <img src={team} alt="team" />
       ) : (
         <Particles
           params={{
