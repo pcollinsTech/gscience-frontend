@@ -4,8 +4,8 @@ import coach_dashboard from "../../img/coach_dashboard.png"
 const Optimal = () => {
   return (
     <React.Fragment>
-      <div className="bg-dark py-5">
-        <div className="container text-center">
+      <div className="bg-dark py-5 ">
+        <div className="container text-center py-5">
           <div className="row">
             <div className="col-md-6">
               <img src={coach_dashboard} alt="" />
