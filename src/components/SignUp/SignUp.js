@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <section className="newsletter-section bg-dark">
       <div className="container large py-5">
-        <h2>Never miss a story. Subscribe for newsletter. </h2>
+        <h2>Stay Optimal. Subscribe to our Newsletter.</h2>
         <div className="my-5 py-5">
           <form>
             <div className="row d-flex justify-content-between">

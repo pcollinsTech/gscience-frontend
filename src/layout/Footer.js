@@ -10,7 +10,12 @@ export class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-5 col-md-5">
-                <img src={logo} alt="" style={{ maxWidth: "150px" }} />
+                <img
+                  src={logo}
+                  alt=""
+                  style={{ maxWidth: "110px" }}
+                  className="pb-4"
+                />
                 <p>
                   {this.props.copyrightText} {new Date().getFullYear()}.
                 </p>
@@ -33,7 +38,7 @@ export class Footer extends Component {
               <div className="col-sm-2">
                 <h5>Legal</h5>
                 <ul>
-                  <li>Ts & Cs</li>
+                  <li>Terms of Service</li>
                   <li>Privacy Policy</li>
                 </ul>
               </div>
@@ -42,7 +47,7 @@ export class Footer extends Component {
                 <ul>
                   <li>
                     <a href={this.props.twitterlink} target="__blank">
-                      <FaTwitter /> - Facebook
+                      <FaTwitter /> - Twitter
                     </a>
                   </li>
                   <li>
@@ -52,7 +57,7 @@ export class Footer extends Component {
                   </li>
                   <li>
                     <a href={this.props.linkedinlink} target="__blank">
-                      <FaLinkedinIn /> - Linked In
+                      <FaLinkedinIn /> - LinkedIn
                     </a>
                   </li>
                   <li>

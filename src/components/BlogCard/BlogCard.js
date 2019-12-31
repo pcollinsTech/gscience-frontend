@@ -9,6 +9,7 @@ const BlogCard = ({ post }) => {
     excerpt,
     date,
   } = post.node
+  console.log("EXCERPT", excerpt)
   return (
     <div className="col-sm-4 blog_summary_item d-flex justify-content-between flex-column">
       <Link to={slug}>
@@ -19,7 +20,11 @@ const BlogCard = ({ post }) => {
           style={{ color: "black" }}
         />
         <span>{date}</span>
-        <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+        <p
+          dangerouslySetInnerHTML={{
+            __html: excerpt.replace("[&hellip;]", "&hellip;"),
+          }}
+        />
         <div className="mb-5 text-center">
           <button className="btn btn-primary">Read More</button>
         </div>

@@ -42,7 +42,12 @@
 
 .banner_image {
   max-height: 100vh;
+  h2 {
+    font-size: 3rem;
+  }
   img {
+    opacity: 0.8;
+    filter: brightness(50%);
     min-width: 100%;
   }
 }
